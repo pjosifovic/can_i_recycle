@@ -1,0 +1,414 @@
+ourKey,cityKey,url,category,item
+1,3001590,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/Appliances/AirConditionersHeatPumps/index.htm,Appliances and Household Items,Air Conditioners and Heat Pumps
+2,3001591,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/Appliances/OtherLargeAppliances/index.htm,Appliances and Household Items,Other Large Appliances
+3,3001592,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/Appliances/RefrigeratorsFreezers/index.htm,Appliances and Household Items,Refrigerators and Freezers
+4,3001593,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/Appliances/SmallHouseholdAppliances/index.htm,Appliances and Household Items,Small Household Appliances
+5,3001594,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/Appliances/Stoves/index.htm,Appliances and Household Items,Stoves
+6,3001595,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/Appliances/WashersDryers/index.htm,Appliances and Household Items,Washers and Dryers
+7,3001596,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/Appliances/WaterHeaters/index.htm,Appliances and Household Items,Water Heaters
+8,3001597,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/Ashes/index.htm,Appliances and Household Items,Ashes -- Fireplace and Briquettes
+9,1000100,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/Batteries/index.htm,Appliances and Household Items,Batteries
+10,3001603,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/BedFrames/index.htm,Appliances and Household Items,Bed Frames
+11,2006978,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/BicyclesBikeParts/index.htm,Appliances and Household Items,Bicycles and Bike Parts
+12,1005027,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/Candles/index.htm,Appliances and Household Items,Candles
+13,3001598,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/CarpetPadding/index.htm,Appliances and Household Items,Carpet and Padding
+14,2006472,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/ChildCarSeats/index.htm,Appliances and Household Items,Child Car Seats
+15,2006603,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/ClothesShoes/index.htm,Appliances and Household Items,Clothes and Shoes
+16,2006672,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/DryerSheets/index.htm,Appliances and Household Items,Dryer Sheets
+17,2006932,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/FlushableWipes/index.htm,Appliances and Household Items,Flushable Wipes
+18,2006604,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/GardenHoses/index.htm,Appliances and Household Items,Garden Hoses
+19,3001600,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/HouseholdFurniture/index.htm,Appliances and Household Items,Household Furniture
+20,3001606,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/LawnMowersPowerEquipment/index.htm,Appliances and Household Items,Lawn Mowers and Power Equipment
+21,2006778,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/LightsChristmas/index.htm,Appliances and Household Items,Holiday Lights
+22,3001625,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/FluorescentLightBulbs/index.htm,Appliances and Household Items,Fluorescent Light Bulbs
+23,1000074,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/LightbulbsFluorescent/index.htm,Appliances and Household Items,Incandescent Light Bulbs
+24,2006779,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/LightbulbsLED/index.htm,Appliances and Household Items,LED Light Bulbs
+25,105,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/LightbulbsHalogenXenon/index.htm,Appliances and Household Items,Halogen and Xenon Light Bulbs
+26,3001602,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/MatressesFutons/index.htm,Appliances and Household Items,Mattresses and Futons
+27,1000085,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/Microwaves/index.htm,Appliances and Household Items,Microwaves
+28,3001599,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/OfficeFurnitureEquipment/index.htm,Appliances and Household Items,Office Furniture and Equipment
+29,2007159,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/Paint--Latex/index.htm,Appliances and Household Items,Paint -- Latex
+30,2007160,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/Paint--Oil-Based/index.htm,Appliances and Household Items,Paint -- Oil-Based
+31,1000101,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/PetFood/index.htm,Appliances and Household Items,Pet Food
+32,1000093,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/PetWasteLitter/index.htm,Appliances and Household Items,Pet Waste and Litter
+33,2006527,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/PlasticClothesHangers/index.htm,Appliances and Household Items,Plastic Clothes Hangers
+34,3001601,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/PlasticOutdoorFurniture/index.htm,Appliances and Household Items,Plastic Outdoor Furniture
+35,208,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/PrinterCartridgesToner/index.htm,Appliances and Household Items,Printer Cartridges and Toner
+36,2006522,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/ReusableShoppingBags/index.htm,Appliances and Household Items,Reusable Shopping Bags
+37,1000091,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/PorcelainItems/index.htm,Appliances and Household Items,Porcelain Toilets and Tubs
+38,1000092,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/SinkTubsFixtures--Metal/index.htm,Appliances and Household Items,Metal Sink and Tub Fixtures
+39,3001607,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/SmokeDetectors/index.htm,Appliances and Household Items,Smoke Detectors
+40,2006884,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/TelephonesLandline/index.htm,Appliances and Household Items,Telephones -- landline
+41,3001605,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/ToysSportingGoods/index.htm,Appliances and Household Items,Toys and Sporting Goods
+42,3001604,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/WindowBlinds/index.htm,Appliances and Household Items,Window Blinds
+43,3001330,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/ConstructionDemolition/AcousticCeilingTile/index.htm,Construction and Demolition,Acoustic Ceiling Tile
+44,3001331,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/ConstructionDemolition/Asbestos/index.htm,Construction and Demolition,Asbestos
+45,3001332,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/ConstructionDemolition/AsphaltRoofing/index.htm,Construction and Demolition,Asphalt Roofing
+46,3001333,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/ConstructionDemolition/CarpetPadding/index.htm,Construction and Demolition,Carpet and Padding
+47,3001334,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/ConstructionDemolition/Drywall/index.htm,Construction and Demolition,Drywall
+48,3001335,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/ConstructionDemolition/Ducts/index.htm,Construction and Demolition,Ducts
+49,3001336,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/ConstructionDemolition/Fiberglass/index.htm,Construction and Demolition,Fiberglass
+50,3001337,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/ConstructionDemolition/Furnaces/index.htm,Construction and Demolition,Furnaces
+51,1000075,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/ConstructionDemolition/GlassBroken/index.htm,Construction and Demolition,Broken Glass
+52,3001338,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/ConstructionDemolition/Gutters/index.htm,Construction and Demolition,Gutters
+53,3001339,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/ConstructionDemolition/MixedCD/index.htm,Construction and Demolition,Mixed C and D
+54,2007161,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/ConstructionDemolition/Paint--Latex/index.htm,Construction and Demolition,Paint -- Latex
+55,2007162,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/ConstructionDemolition/Paint--Oil-Based/index.htm,Construction and Demolition,Paint -- Oil-Based
+56,3001340,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/ConstructionDemolition/PlantTreeSalvage/index.htm,Construction and Demolition,Plant and Tree Salvage
+57,3001342,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/ConstructionDemolition/SinkTubsFixtures--Metal/index.htm,Construction and Demolition,Metal Sink and Tub Fixtures
+58,3001341,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/ConstructionDemolition/PorcelainItems/index.htm,Construction and Demolition,Porcelain Toilets and Tubs
+59,3001344,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/ConstructionDemolition/SoilRockBrickConcrete/Brick/index.htm,Construction and Demolition,Brick
+60,3001345,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/ConstructionDemolition/SoilRockBrickConcrete/ConcreteAsphalt/index.htm,Construction and Demolition,Concrete and Asphalt
+61,3001347,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/ConstructionDemolition/SoilRockBrickConcrete/DirtSoil/index.htm,Construction and Demolition,Dirt and Soil
+62,3001346,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/ConstructionDemolition/SoilRockBrickConcrete/ContaminatedSoil/index.htm,Construction and Demolition,Dirt and Soil - Contaminated
+63,3001348,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/ConstructionDemolition/SoilRockBrickConcrete/RockGravel/index.htm,Construction and Demolition,Rock and Gravel
+64,3001349,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/ConstructionDemolition/SalvagedMaterials/index.htm,Construction and Demolition,Salvaged Materials
+65,3001350,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/ConstructionDemolition/Windows/index.htm,Construction and Demolition,Windows
+66,3001354,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/ConstructionDemolition/WoodWastes/LumberBoards/index.htm,Construction and Demolition,Lumber and Boards
+67,3001352,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/ConstructionDemolition/WoodWastes/Pallets/index.htm,Construction and Demolition,Pallets
+68,3001353,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/ConstructionDemolition/WoodWastes/PanelingCompositeWoods/index.htm,Construction and Demolition,Wood Composite Paneling
+69,3001355,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/ConstructionDemolition/WoodWastes/TreesBrush/index.htm,Construction and Demolition,Trees and Brush
+70,3001356,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/ConstructionDemolition/WoodWastes/WoodWasteClean/index.htm,Construction and Demolition,Clean Wood Waste
+71,3001357,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/ConstructionDemolition/WoodWastes/WoodWastePaintedTreated/index.htm,Construction and Demolition,Painted or Treated Wood Waste
+72,3001423,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Electronics/Batteries/CameraWatchBatteries/index.htm,Electronics,Camera and Watch Batteries
+73,3001424,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Electronics/Batteries/ComputerBatteries/index.htm,Electronics,Computer Batteries
+74,3001425,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Electronics/Batteries/CellPhoneBatteries/index.htm,Electronics,Cell Phone Batteries
+75,3001426,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Electronics/Batteries/HearingAidBatteries/index.htm,Electronics,Hearing Aid Batteries
+76,2006701,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Electronics/Batteries/Lithium/index.htm,Electronics,Lithium Batteries
+77,3001427,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Electronics/Batteries/HouseholdAlkalineBatteries/index.htm,Electronics,Alkaline Batteries
+78,3001428,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Electronics/Batteries/RechargeableBatteries/index.htm,Electronics,Rechargeable Batteries
+79,3001429,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Electronics/Batteries/RechargeableAppliances/index.htm,Electronics,Rechargeable Appliances
+80,3001430,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Electronics/Batteries/VehicleLead-AcidBatteries/index.htm,Electronics,Vehicle Lead-Acid Batteries
+81,3001569,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Electronics/CDsDVDsFloppies/index.htm,Electronics,"CDs, DVDs and Floppies"
+82,3001570,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Electronics/CellPhones/index.htm,Electronics,Cell Phones
+83,3001571,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Electronics/ClockRadios/index.htm,Electronics,Clock Radios
+84,3001574,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Electronics/ComputersLaptops/index.htm,Electronics,Computers and Laptops
+85,3001572,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Electronics/ComputerMonitors/index.htm,Electronics,Computer Monitors
+86,3001575,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Electronics/CopiersFaxMachines/index.htm,Electronics,Copiers and Fax Machines
+87,2006400,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Electronics/eReaders/index.htm,Electronics,E-readers
+88,1000077,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Electronics/E-waste/index.htm,Electronics,E-waste
+89,3001580,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Electronics/OtherElectronicDevices/index.htm,Electronics,Other Electronic Devices
+90,3001576,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Electronics/PrinterCartridgesToner/index.htm,Electronics,Printer Cartridges and Toner
+91,3001573,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Electronics/PrintersPeripherals/index.htm,Electronics,Printers and Peripherals
+92,3001577,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Electronics/StereoAudioEquipment/index.htm,Electronics,Stereo and Audio Equipment
+93,2006885,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Electronics/TelephonesLandline/index.htm,Electronics,Telephones -- landline
+94,3001578,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Electronics/Televisions/index.htm,Electronics,Televisions
+95,3001579,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Electronics/VCRs/index.htm,Electronics,VCRs
+96,3001585,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Fabric/Bedding/index.htm,Fabric,Bedding and Linens
+97,3001586,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Fabric/CarpetPadding/index.htm,Fabric,Carpet and Padding
+98,3001587,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Fabric/Clothes/index.htm,Fabric,Clothes and Shoes
+99,2006673,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Fabric/DryerSheets/index.htm,Fabric,Dryer Sheets
+100,3001588,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Fabric/FabricTextiles/index.htm,Fabric,Fabric and Textiles
+101,2006523,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Fabric/ReusableShoppingBags/index.htm,Fabric,Reusable Shopping Bags
+102,3001584,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Food/EdibleFoodtoDonate/index.htm,Food,Edible Food to Donate
+103,3001581,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Food/FatsOilsGrease/index.htm,Food,Oils and Grease
+104,3001582,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Food/FoodScraps--All/index.htm,Food,Food Scraps -- All
+105,3001583,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Food/FoodScraps--HomeComposting/index.htm,Food,Food Scraps -- Home Composting
+106,1000102,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Food/PetFood/index.htm,Food,Pet Food
+107,2006674,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Food/Vitamins/index.htm,Food,Vitamins
+108,3001358,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/AluminumFoilTrays/index.htm,Food Packaging,Aluminum Foil and Trays
+109,3001401,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/BagsPouches/BreadBags/index.htm,Food Packaging,Bread Bags
+110,2006690,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/BagsPouches/CompostableBags/index.htm,Food Packaging,Compostable Bags
+111,3001400,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/BagsPouches/ChipBags/index.htm,Food Packaging,Chip Bags
+112,3001403,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/BagsPouches/FoodBoxLiners/index.htm,Food Packaging,Food Box Liners
+113,3001404,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/BagsPouches/GroceryBags/index.htm,Food Packaging,Grocery Bags
+114,2000337,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/BagsPouches/JuicePouches/index.htm,Food Packaging,Juice Pouches
+115,2006735,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/BagsPouches/Microwavepopcornbags/index.htm,Food Packaging,Microwave Popcorn Bags
+116,1000106,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/BagsPouches/PlasticNoRecycleSymbol/index.htm,Food Packaging,Plastic - No Recycle Symbol
+117,1000079,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/BagsPouches/PetFoodBags/index.htm,Food Packaging,Pet Food Bags
+118,3001405,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/BagsPouches/ProduceBulkFoodBags/index.htm,Food Packaging,Produce and Bulk Food Bags
+119,3001402,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/BagsPouches/ZiplocBags/index.htm,Food Packaging,Ziploc Bags
+120,3001371,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/BottlesJugs/BottleCapsJarLids/index.htm,Food Packaging,Bottle Caps and Jar Lids
+121,3001373,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/BottlesJugs/PlasticBottlesWaterSoda/index.htm,Food Packaging,Plastic Water and Soda Bottles
+122,3001372,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/BottlesJugs/PlasticMilkJuiceJug/index.htm,Food Packaging,Plastic Milk or Juice Jug
+123,1000104,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/BottlesJugs/PlasticNoRecycleSymbol/index.htm,Food Packaging,Plastic - No Recycle Symbol
+124,2006663,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/BoxesCartonsLiners/AsepticTetraPak/index.htm,Food Packaging,Aseptic Tetra Pak
+125,3001361,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/BoxesCartonsLiners/ButterBoxes/index.htm,Food Packaging,Butter Boxes
+126,3001365,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/BoxesCartonsLiners/CerealCrackerBoxes/index.htm,Food Packaging,Cereal and Cracker Boxes
+127,3001367,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/BoxesCartonsLiners/FoodBoxLiners/index.htm,Food Packaging,Food Box Liners
+128,3001362,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/BoxesCartonsLiners/FrozenFoodBoxes/index.htm,Food Packaging,Frozen Food Boxes
+129,3001363,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/BoxesCartonsLiners/IceCreamCartons/index.htm,Food Packaging,Ice Cream Cartons
+130,2006664,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/BoxesCartonsLiners/JuiceBox/index.htm,Food Packaging,Juice Box
+131,3001364,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/BoxesCartonsLiners/MilkJuiceCartons/index.htm,Food Packaging,Milk and Juice Cartons
+132,2006469,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/BoxesCartonsLiners/Nutcoffeecanisters/index.htm,Food Packaging,"Nut, Potato Chip and Coffee Canisters"
+133,2006151,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/BoxesCartonsLiners/PaperBerryBaskets/index.htm,Food Packaging,Paper Berry Baskets
+134,2006146,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/BoxesCartonsLiners/PaperEggCartons/index.htm,Food Packaging,Paper Egg Cartons
+135,3001366,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/BoxesCartonsLiners/PizzaBoxes/index.htm,Food Packaging,Pizza Boxes
+136,2006665,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/BoxesCartonsLiners/SoupBox/index.htm,Food Packaging,Soup Box
+137,3001368,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/BoxesCartonsLiners/Take-OutContainers/index.htm,Food Packaging,Take-Out Containers
+138,2006710,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/ButterWrappers/index.htm,Food Packaging,Butter Wrappers
+139,1000099,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/CoffeeFilters/index.htm,Food Packaging,Coffee Filters
+140,3001407,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/CompostableEatingWare/index.htm,Food Packaging,Compostable Food Service Items
+141,3001406,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/Corks/index.htm,Food Packaging,Corks
+142,3001370,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/GlassBottlesJars/index.htm,Food Packaging,Glass Bottles and Jars
+143,1000078,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/HotCoffeeCups/index.htm,Food Packaging,Coffee Cups
+144,1000096,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/Lids/BottleCapsJarLids/index.htm,Food Packaging,Bottle Caps and Jar Lids
+145,1000097,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/Lids/CanLids/index.htm,Food Packaging,Lids - Can
+146,1000098,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/Lids/Lids-Plastic/index.htm,Food Packaging,Lids - Plastic
+147,3001375,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/MetalCansMetalLids/AerosolCans/index.htm,Food Packaging,Aerosol Cans
+148,3001376,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/MetalCansMetalLids/BeverageCans/index.htm,Food Packaging,Beverage Cans
+149,3001324,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/MetalCansMetalLids/BottleCapsJarLids/index.htm,Food Packaging,Bottle Caps and Jar Lids
+150,3001377,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/MetalCansMetalLids/SteelTinCansLids/index.htm,Food Packaging,Steel and Tin Cans and Lids
+151,3001381,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/PaperCardboard/CardboardBoxes/index.htm,Food Packaging,Cardboard Boxes
+152,3001379,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/PaperCardboard/CardboardSoiledorGreasy/index.htm,Food Packaging,Soiled or Greasy Cardboard
+153,3001380,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/PaperCardboard/CardboardWaxed/index.htm,Food Packaging,Waxed Cardboard
+154,2006150,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/PaperCardboard/PaperBerryBaskets/index.htm,Food Packaging,Paper Berry Baskets
+155,2006145,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/PaperCardboard/PaperEggCartons/index.htm,Food Packaging,Paper Egg Cartons
+156,3001383,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/PaperCardboard/PaperCupsCoffeeeCups/index.htm,Food Packaging,Paper Plates and Cups
+157,3001387,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/PaperCardboard/PizzaBoxes/index.htm,Food Packaging,Pizza Boxes
+158,3001385,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/PaperCardboard/Take-OutContainers/index.htm,Food Packaging,Take-Out Containers
+159,3001388,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/PaperCardboard/WaxedPaper/index.htm,Food Packaging,Waxed Paper
+160,1000083,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/PlasticStyrofoamContainers/BerryTrays/index.htm,Food Packaging,Berry Trays
+161,3001391,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/PlasticStyrofoamContainers/ClamShellContainers/index.htm,Food Packaging,Clam Shell Containers
+162,3001394,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/PlasticStyrofoamContainers/EggCartons/index.htm,Food Packaging,Foam Egg Cartons
+163,3001390,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/PlasticStyrofoamContainers/MeatFishTrays/index.htm,Food Packaging,Meat and Food Trays
+164,1000090,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/PlasticStyrofoamContainers/Lids-DeliCoffeeSoftdrink/index.htm,Food Packaging,Coffee and Soft Drink Lids
+165,3001396,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/PlasticStyrofoamContainers/PlasticCupsUtensils/index.htm,Food Packaging,Plastic Cups and Utensils
+166,3001397,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/PlasticStyrofoamContainers/PlasticJars/index.htm,Food Packaging,Plastic Peanut Butter Jars
+167,1000105,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/PlasticStyrofoamContainers/PlasticNoRecycleSymbol/index.htm,Food Packaging,Plastic - No Recycle Symbol
+168,3001395,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/PlasticStyrofoamContainers/Take-OutContainers/index.htm,Food Packaging,Take-Out Containers
+169,3001392,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/PlasticStyrofoamContainers/TubsMargerineYogurt/index.htm,Food Packaging,Margarine and Yogurt Tubs
+170,3001393,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/PlasticStyrofoamContainers/Tupperware/index.htm,Food Packaging,Tupperware
+171,3001382,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/FoodPackaging/EggCartons/index.htm,Food Packaging,Egg Cartons
+172,3001408,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/GlassCeramics/CarGlass/index.htm,Glass Ceramics,Auto Glass
+173,3001410,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/GlassCeramics/DrinkingGlasses/index.htm,Glass Ceramics,Drinking Glasses
+174,3001412,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/GlassCeramics/EyeGlasses/index.htm,Glass Ceramics,Eyeglasses
+175,3001415,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/GlassCeramics/GlassCeramicHouseholdItems/index.htm,Glass Ceramics,Glass and Ceramic Household Items
+176,3001409,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/GlassCeramics/GlassBottlesJars/index.htm,Glass Ceramics,Glass Bottles and Jars
+177,1000076,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/GlassCeramics/GlassBroken/index.htm,Glass Ceramics,Broken Glass
+178,3001416,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/GlassCeramics/FluorescentLights/index.htm,Glass Ceramics,Fluorescent Light Bulbs
+179,107,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/GlassCeramics/LightbulbsHalogenXenon/index.htm,Glass Ceramics,Halogen and Xenon Light Bulbs
+180,3001417,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/GlassCeramics/IncandescentLightBulbs/index.htm,Glass Ceramics,Incandescent Light Bulbs
+181,194,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/GlassCeramics/LightbulbsLED/index.htm,Glass Ceramics,LED Light Bulbs
+182,3001418,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/GlassCeramics/MercuryThermometers/index.htm,Glass Ceramics,Mercury Thermometers
+183,3001414,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/GlassCeramics/Mirrors/index.htm,Glass Ceramics,Mirrors
+184,3001411,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/GlassCeramics/MugsPlatesBowls/index.htm,Glass Ceramics,"Ceramic Mugs, Plates and Bowls"
+185,3001413,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/GlassCeramics/WindowPictureGlass/index.htm,Glass Ceramics,Window and Picture Glass
+186,3001419,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/AerosolCans/index.htm,Hazardous Items,Aerosol Cans
+187,3001420,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/AmmunitionGunsFireworks/index.htm,Hazardous Items,"Ammunition, Guns and Fireworks"
+188,3001421,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/Asbestos/index.htm,Hazardous Items,Asbestos
+189,3001568,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/Batteries/index.htm,Hazardous Items,Batteries
+190,2006764,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/CompressedGasContainers/AerosolCans/index.htm,Hazardous Items,Aerosol Cans
+191,2006765,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/CompressedGasContainers/FireExtinguishers/index.htm,Hazardous Items,Fire Extinguishers
+192,2006766,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/CompressedGasContainers/GasCanistersSmall/index.htm,Hazardous Items,Small Gas Canisters
+193,2006767,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/CompressedGasContainers/HeliumTanks/index.htm,Hazardous Items,Helium Tanks
+194,2006768,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/CompressedGasContainers/OxygenAcetyleneTanks/index.htm,Hazardous Items,Oxygen and Acetylene Tanks
+195,2006769,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/CompressedGasContainers/PropaneTanks/index.htm,Hazardous Items,Propane Tanks
+196,3001431,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/ContaminatedSoil/index.htm,Hazardous Items,Contaminated Soil
+197,3001432,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/Fiberglass/index.htm,Hazardous Items,Fiberglass
+198,3001433,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/FluorescentLights/index.htm,Hazardous Items,Fluorescent Light Bulbs
+199,3001435,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/LiquidsHouseholdSupplies/Anti-Freeze/index.htm,Hazardous Items,Anti-Freeze
+200,3001436,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/LiquidsHouseholdSupplies/Bleach/index.htm,Hazardous Items,Bleach
+201,3001437,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/LiquidsHouseholdSupplies/BrakeTransmissionFluid/index.htm,Hazardous Items,Brake and Transmission Fluid
+202,3001438,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/LiquidsHouseholdSupplies/CookingOil/index.htm,Hazardous Items,Cooking Oil
+203,3001439,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/LiquidsHouseholdSupplies/CleaningSupplies/index.htm,Hazardous Items,Cleaning Supplies
+204,3001440,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/LiquidsHouseholdSupplies/Gasoline/index.htm,Hazardous Items,Gasoline
+205,3001441,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/LiquidsHouseholdSupplies/GluesAdhesives/index.htm,Hazardous Items,Glues and Adhesives
+206,3001442,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/LiquidsHouseholdSupplies/HobbyChemicals/index.htm,Hazardous Items,Hobby Chemicals
+207,3001443,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/LiquidsHouseholdSupplies/MotorOil/index.htm,Hazardous Items,Motor Oil
+208,3001444,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/LiquidsHouseholdSupplies/Paint--Latex/index.htm,Hazardous Items,Paint -- Latex
+209,3001445,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/LiquidsHouseholdSupplies/Paint--Oil-Based/index.htm,Hazardous Items,Paint -- Oil-Based
+210,3001446,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/LiquidsHouseholdSupplies/PoolSpaChemicals/index.htm,Hazardous Items,Pool and Spa Chemicals
+211,3001447,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/LiquidsHouseholdSupplies/Solvents/index.htm,Hazardous Items,Solvents
+212,3001448,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/Medicine/index.htm,Hazardous Items,Medicine
+213,3001449,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/MercuryThermometersItems/index.htm,Hazardous Items,Mercury Thermometers and Items
+214,3001450,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/MotorOilContainers/index.htm,Hazardous Items,Motor Oil Containers
+215,3001452,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/OilFilters/index.htm,Hazardous Items,Oil Filters
+216,3001453,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/OilTanks/index.htm,Hazardous Items,Oil Tanks
+217,3001451,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/NeedlesSyringes/index.htm,Hazardous Items,Needles and Syringes
+218,3001456,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/SmokeDetectors/index.htm,Hazardous Items,Smoke Detectors
+219,3001454,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/Pesticides/index.htm,Hazardous Items,Pesticides
+220,221,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/PrinterCartridgesToner/index.htm,Hazardous Items,Printer Cartridges and Toner
+221,3001286,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/Appliances/index.htm,Metals,Appliances
+222,3001287,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/BarrelsDrums/index.htm,Metals,Barrels and Drums
+223,3001288,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/Batteries/index.htm,Metals,Batteries
+224,3001289,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/BicyclesBikeParts/index.htm,Metals,Bicycles and Bike Parts
+225,3001292,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/Cans/AerosolCans/index.htm,Metals,Aerosol Cans
+226,3001293,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/Cans/BeverageCans/index.htm,Metals,Beverage Cans
+227,3001294,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/Cans/CanLids/index.htm,Metals,Can Lids
+228,3001295,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/Cans/PaintCans/index.htm,Metals,Paint Cans
+229,3001296,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/Cans/SteelTinCans/index.htm,Metals,Steel and Tin Cans
+230,3001297,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/CompressedGasContainers/AerosolCans/index.htm,Metals,Aerosol Cans
+231,2007248,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/CompressedGasContainers/CO2Chargers/index.htm,Metals,CO2 Chargers
+232,3001298,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/CompressedGasContainers/FireExtinguishers/index.htm,Metals,Fire Extinguishers
+233,3001299,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/CompressedGasContainers/GasCanistersSmall/index.htm,Metals,Small Gas Canisters
+234,3001300,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/CompressedGasContainers/HeliumTanks/index.htm,Metals,Helium Tanks
+235,3001301,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/CompressedGasContainers/OxygenAcetyleneTanks/index.htm,Metals,Oxygen and Acetylene Tanks
+236,3001302,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/CompressedGasContainers/PropaneTanks/index.htm,Metals,Propane Tanks
+237,3001304,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/FromtheKitchen/AluminumFoil/index.htm,Metals,Aluminum Foil
+238,3001305,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/FromtheKitchen/FoilPiePans/index.htm,Metals,Foil Pie Pans
+239,3001306,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/FromtheKitchen/JarLids/index.htm,Metals,Jar Lids
+240,1000086,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/FromtheKitchen/Microwaves/index.htm,Metals,Microwaves
+241,3001307,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/FromtheKitchen/PotsPans/index.htm,Metals,Pots and Pans
+242,3001308,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/FromtheKitchen/Silverware/index.htm,Metals,Silverware
+243,3001309,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/FromtheKitchen/SmallAppliances/index.htm,Metals,Small Appliances
+244,2006485,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/FromtheKitchen/WineBottleFoil/index.htm,Metals,Wine Bottle Foil
+245,3001310,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/HandTools/index.htm,Metals,Hand Tools
+246,3001312,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/JewelryCoins/index.htm,Metals,Jewelry and Coins
+247,3001313,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/LawnMowersPowerEquipment/index.htm,Metals,Lawn Mowers and Power Equipment
+248,4000325,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/LicensePlates/index.htm,Metals,License Plates
+249,3001315,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/MetalsbyType/Aluminum/index.htm,Metals,Aluminum
+250,3001316,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/MetalsbyType/CastIron/index.htm,Metals,Cast Iron
+251,3001317,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/MetalsbyType/CopperBronzeBrass/index.htm,Metals,"Copper, Bronze and Brass"
+252,3001318,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/MetalsbyType/GoldSilverEtc/index.htm,Metals,"Gold, Silver, etc."
+253,3001319,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/MetalsbyType/IronSteel/index.htm,Metals,Iron and Steel
+254,3001320,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/MetalsbyType/Lead/index.htm,Metals,Lead
+255,3001321,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/MetalsbyType/ScrapMetal/index.htm,Metals,Scrap Metal
+256,3001322,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/MetalsbyType/StainlessSteel/index.htm,Metals,Stainless Steel
+257,3001325,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/SmallMetalItems/Keys/index.htm,Metals,Keys
+258,3001326,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/SmallMetalItems/ScrewsNailsNutsBolts/index.htm,Metals,"Screws, Nails, Nuts and Bolts"
+259,3001327,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/WireCable/index.htm,Metals,Wire and Cable
+260,3001328,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/WireClothesHangers/index.htm,Metals,Wire Clothes Hangers
+261,3001329,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/MetalandMetalItems/WindowBlinds/index.htm,Metals,Window Blinds
+262,3001473,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/Cardboard/CardboardSoiledorGreasy/index.htm,Paper,Soiled or Greasy Cardboard
+263,3001474,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/Cardboard/CardboardWaxed/index.htm,Paper,Waxed Cardboard
+264,3001475,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/Cardboard/CardboardCorrugated/index.htm,Paper,Corrugated Cardboard
+265,3001476,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/Cardboard/CardboardBoxes/index.htm,Paper,Cardboard Boxes
+266,3001477,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/Cardboard/Foamcore/index.htm,Paper,Foamcore
+267,3001480,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/ContainersBoxesCartons/ButterBoxes/index.htm,Paper,Butter Boxes
+268,3001481,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/ContainersBoxesCartons/CerealCrackerBoxes/index.htm,Paper,Cereal and Cracker Boxes
+269,3001482,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/ContainersBoxesCartons/FoodBoxLiners/index.htm,Paper,Food Box Liners
+270,3001483,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/ContainersBoxesCartons/IceCreamCartons/index.htm,Paper,Ice Cream Cartons
+271,3001484,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/ContainersBoxesCartons/LaundryDetergentBoxes/index.htm,Paper,Laundry Detergent Boxes
+272,3001485,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/ContainersBoxesCartons/MilkJuiceCartons/index.htm,Paper,Milk and Juice Cartons
+273,2006149,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/ContainersBoxesCartons/PaperBerryBaskets/index.htm,Paper,Paper Berry Baskets
+274,3001486,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/ContainersBoxesCartons/PaperCupsCoffeeCups/index.htm,Paper,Coffee Cups
+275,2006152,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/ContainersBoxesCartons/PaperEggCartons/index.htm,Paper,Paper Egg Cartons
+276,3001487,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/ContainersBoxesCartons/PizzaBoxes/index.htm,Paper,Pizza Boxes
+277,2006484,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/ContainersBoxesCartons/TissueBoxes/index.htm,Paper,Tissue Boxes
+278,4000368,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/Food-soiledpaper/index.htm,Paper,Food-soiled Paper
+279,1000141,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/Misc.Paper/Envelopes/index.htm,Paper,Envelopes
+280,2000336,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/Misc.Paper/FacialTissue/index.htm,Paper,Facial Tissue
+281,2006931,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/Misc.Paper/FlushableWipes/index.htm,Paper,Flushable Wipes
+282,3001491,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/Misc.Paper/GiftWrap/index.htm,Paper,Gift Wrap
+283,3001492,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/Misc.Paper/Napkins/index.htm,Paper,Napkins
+284,2007061,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/Misc.Paper/Notebooks-SpiralBound/index.htm,Paper,Notebooks - Spiral Bound
+285,3001489,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/Misc.Paper/PaperBags/index.htm,Paper,Paper Bags
+286,3001490,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/Misc.Paper/PaperPlatesCups/index.htm,Paper,Paper Plates and Cups
+287,3001493,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/Misc.Paper/PaperPunchHoles/index.htm,Paper,Paper Punch Holes
+288,3001494,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/Misc.Paper/PaperTowels/index.htm,Paper,Paper Towels
+289,3001495,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/Misc.Paper/PaperTowelRolls/index.htm,Paper,Paper Towel Rolls
+290,1000084,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/Misc.Paper/PetFoodBags/index.htm,Paper,Pet Food Bags
+291,2006739,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/Misc.Paper/Receipts/index.htm,Paper,Receipts
+292,3001496,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/Misc.Paper/ShreddedPaper--Confetti/index.htm,Paper,Shredded Paper -- Confetti
+293,3001497,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/Misc.Paper/ShreddedPaper--Cross-Cut/index.htm,Paper,Shredded Paper -- Cross-Cut
+294,3001498,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/Misc.Paper/ShreddedPaper--Long/index.htm,Paper,Shredded Paper -- Long
+295,3001499,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/Misc.Paper/WaxedPaper/index.htm,Paper,Waxed Paper
+296,3001501,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/PaperPrintedReading/BooksHardback/index.htm,Paper,Hardback Books
+297,3001502,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/PaperPrintedReading/BooksPaperback/index.htm,Paper,Paperback Books
+298,3001503,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/PaperPrintedReading/EnvelopeswithWindows/index.htm,Paper,Envelopes
+299,2006709,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/PaperPrintedReading/EnvelopesBubblepack/index.htm,Paper,Bubble Pack Envelopes
+300,2006708,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/PaperPrintedReading/EnvelopesTyvek/index.htm,Paper,Tyvek Envelopes
+301,3001504,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/PaperPrintedReading/GreetingCards/index.htm,Paper,Greeting Cards
+302,3001505,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/PaperPrintedReading/JunkMail/index.htm,Paper,Junk Mail
+303,3001506,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/PaperPrintedReading/Magazines/index.htm,Paper,Magazines
+304,3001507,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/PaperPrintedReading/Newspapers/index.htm,Paper,Newspapers
+305,2000435,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/PaperPrintedReading/Notebooks-Spiralbound/index.htm,Paper,Notebooks - Spiral Bound
+306,3001508,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/PaperPrintedReading/OfficePaper/index.htm,Paper,Office Paper
+307,3001509,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/PaperPrintedReading/PhoneBooks/index.htm,Paper,Phone Books
+308,1000142,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/PaperPrintedReading/Photographs/index.htm,Paper,Photographs
+309,4000326,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/PaperPrintedReading/Receipts/index.htm,Paper,Receipts
+310,3001541,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Bags/BreadBags/index.htm,Plastic,Bread Bags
+311,3001540,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Bags/ChipBags/index.htm,Plastic,Chip Bags
+312,3001536,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Bags/DryCleanerBags/index.htm,Plastic,Dry Cleaner Bags
+313,3001539,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Bags/FoodBoxLiners/index.htm,Plastic,Food Box Liners
+314,3001535,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Bags/GroceryBags/index.htm,Plastic,Grocery and Shopping Bags
+315,3001542,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Bags/NewspaperBags/index.htm,Plastic,Newspaper Bags
+316,3001538,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Bags/ProduceBags/index.htm,Plastic,Produce Bags
+317,2006524,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Bags/ReusableShoppingBags/index.htm,Plastic,Reusable Shopping Bags
+318,3001537,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Bags/ZiplockBags/index.htm,Plastic,Ziploc Bags
+319,2006384,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/WithRecycleNumbers/index.htm,Plastic,Recycle Numbers 1-7
+320,1000110,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/FoodBeverageContainers/6-packPlasticRings/index.htm,Plastic,6-pack Plastic Rings
+321,1000082,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/FoodBeverageContainers/BerryTrays/index.htm,Plastic,Berry Trays
+322,3001519,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/FoodBeverageContainers/BlisterPackages/index.htm,Plastic,Blister Packages
+323,3001518,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/FoodBeverageContainers/ClamShellContainers/index.htm,Plastic,Clam Shell Containers
+324,2006147,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/FoodBeverageContainers/FoamEggCartons/index.htm,Plastic,Foam Egg Cartons
+325,1000089,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/FoodBeverageContainers/Lids-DeliCoffeeSoftdrink/index.htm,Plastic,Lids - Plastic
+326,3001517,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/FoodBeverageContainers/MeatFishTrays/index.htm,Plastic,Meat and Food Trays
+327,3001515,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/FoodBeverageContainers/PlasticBottlesWaterSoda/index.htm,Plastic,Plastic Water and Soda Bottles
+328,3001512,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/FoodBeverageContainers/PlasticCupsUtensils/index.htm,Plastic,Plastic Cups and Utensils
+329,3001516,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/FoodBeverageContainers/PlasticJarsPeanutButter/index.htm,Plastic,Plastic Peanut Butter Jars
+330,3001514,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/FoodBeverageContainers/PlasticMilkJuiceJug/index.htm,Plastic,Plastic Milk and Juice Jug
+331,3001511,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/FoodBeverageContainers/TubsMargarineYogurt/index.htm,Plastic,Margarine and Yogurt Tubs
+332,3001513,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/FoodBeverageContainers/Tupperware/index.htm,Plastic,Tupperware
+333,1000087,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/MailPackaging/BiodegradableFoamPeanuts/index.htm,Plastic,Biodegradable Foam Peanuts
+334,3001551,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/MailPackaging/BubbleWrap/index.htm,Plastic,Bubble Wrap
+335,2006706,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/MailPackaging/EnvelopesBubblepack/index.htm,Plastic,Bubble Pack Envelopes
+336,2006707,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/MailPackaging/EnvelopesTyvek/index.htm,Plastic,Tyvek Envelopes
+337,3001553,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/MailPackaging/FoamBlocksPackingSheets/index.htm,Plastic,Foam Blocks and Packing Sheets
+338,3001552,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/MailPackaging/PackingPeanuts/index.htm,Plastic,Packing Peanuts
+339,1000111,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Misc.Plastic/6-packPlasticRings/index.htm,Plastic,6-pack Plastic Rings
+340,1000088,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Misc.Plastic/BiodegradableFoamPeanuts/index.htm,Plastic,Biodegradable Foam Peanuts
+341,3001555,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Misc.Plastic/BlisterPackages/index.htm,Plastic,Blister Packages
+342,3001563,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Misc.Plastic/BottleCaps/index.htm,Plastic,Bottle Caps
+343,3001556,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Misc.Plastic/BubbleWrap/index.htm,Plastic,Bubble Wrap
+344,3001557,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Misc.Plastic/CDCases/index.htm,Plastic,CD and DVD Cases
+345,3001558,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Misc.Plastic/CDsDVDsFloppies/index.htm,Plastic,"CDs, DVDs and Floppies"
+346,2006526,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Misc.Plastic/ClothesHangers/index.htm,Plastic,Clothes Hangers
+347,3001559,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Misc.Plastic/Corks/index.htm,Plastic,Corks
+348,3001560,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Misc.Plastic/DisposableDiapers/index.htm,Plastic,Disposable Diapers
+349,3001566,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Misc.Plastic/EyeglassFrames/index.htm,Plastic,Eyeglass Frames
+350,3001562,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Misc.Plastic/PlantPots/index.htm,Plastic,Plant Pots
+351,1000107,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Misc.Plastic/PlasticNoRecycleSymbol/index.htm,Plastic,Plastic - No Recycle Symbol
+352,3001564,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Misc.Plastic/PlasticOutdoorFurniture/index.htm,Plastic,Plastic Outdoor Furniture
+353,3001565,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Misc.Plastic/PrinterCartridges/index.htm,Plastic,Printer Cartridges
+354,3001561,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Misc.Plastic/ShrinkWrap/index.htm,Plastic,Shrink Wrap
+355,2007140,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Misc.Plastic/Tarps/index.htm,Plastic,Tarps
+356,3001567,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Misc.Plastic/ToysSportingGoods/index.htm,Plastic,Toys and Sporting Goods
+357,3001530,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Non-FoodContainers/AspirinContainers/index.htm,Plastic,Aspirin Containers
+358,3001531,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Non-FoodContainers/BlisterPackages/index.htm,Plastic,Blister Packages
+359,3001524,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Non-FoodContainers/BottleCaps/index.htm,Plastic,Bottle Caps
+360,3001521,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Non-FoodContainers/Buckets/index.htm,Plastic,Buckets
+361,3001532,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Non-FoodContainers/LaundryDetergentJugs/index.htm,Plastic,Laundry Detergent Jugs
+362,3001533,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Non-FoodContainers/PesticideContainers/index.htm,Plastic,Pesticide Containers
+363,3001523,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Non-FoodContainers/PlasticBottles/index.htm,Plastic,Plastic Bottles
+364,3001525,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Non-FoodContainers/PlasticJugs/index.htm,Plastic,Plastic Jugs
+365,3001526,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Non-FoodContainers/PlasticTubs/index.htm,Plastic,Plastic Tubs
+366,3001527,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Non-FoodContainers/PrescriptionDrugContainers/index.htm,Plastic,Prescription Drug Containers
+367,3001528,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Non-FoodContainers/ShampooCreamBottles/index.htm,Plastic,Shampoo Bottles
+368,3001529,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Non-FoodContainers/VitaminBottles/index.htm,Plastic,Vitamin Bottles
+369,3001549,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Styrofoam/CupsUtensils/index.htm,Plastic,Cups and Utensils
+370,2006148,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Styrofoam/FoamEggCartons/index.htm,Plastic,Foam Egg Cartons
+371,3001545,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Styrofoam/FoamPackingSheets/index.htm,Plastic,Foam Packing Sheets
+372,3001548,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Styrofoam/MeatFishTrays/index.htm,Plastic,Meat and Food Trays
+373,3001546,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Styrofoam/PackingPeanuts/index.htm,Plastic,Packing Peanuts
+374,3001547,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Styrofoam/StyrofoamTMBlocks/index.htm,Plastic,Styrofoam TM Blocks
+375,3001544,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Styrofoam/Take-OutContainers/index.htm,Plastic,Take-Out Containers
+376,3001457,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/VehiclesVehicle-related/Anti-Freeze/index.htm,Vehicle Related,Anti-Freeze
+377,3001458,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/VehiclesVehicle-related/AutoParts/index.htm,Vehicle Related,Auto Parts
+378,2006979,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/VehiclesVehicle-related/BicyclesBikeParts/index.htm,Vehicle Related,Bicycles and Bike Parts
+379,3001459,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/VehiclesVehicle-related/BrakeTransmissionFluid/index.htm,Vehicle Related,Brake and Transmission Fluid
+380,2006471,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/VehiclesVehicle-related/ChildCarSeats/index.htm,Vehicle Related,Child Car Seats
+381,3001460,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/VehiclesVehicle-related/EnginesMotorsandCarParts/index.htm,Vehicle Related,"Engines, Motors and Car Parts"
+382,3001461,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/VehiclesVehicle-related/Flares/index.htm,Vehicle Related,Flares
+383,3001463,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/VehiclesVehicle-related/GasCans/index.htm,Vehicle Related,Gas Cans
+384,3001462,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/VehiclesVehicle-related/Gasoline/index.htm,Vehicle Related,Gasoline
+385,3001464,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/VehiclesVehicle-related/LawnMowersPowerEquipment/index.htm,Vehicle Related,Lawn Mowers and Power Equipment
+386,2006525,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/VehiclesVehicle-related/licenseplates/index.htm,Vehicle Related,License Plates
+387,3001465,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/VehiclesVehicle-related/MotorOil/index.htm,Vehicle Related,Motor Oil
+388,3001466,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/VehiclesVehicle-related/MotorOilContainers/index.htm,Vehicle Related,Motor Oil Containers
+389,3001467,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/VehiclesVehicle-related/MotorOilFilters/index.htm,Vehicle Related,Motor Oil Filters
+390,3001471,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/VehiclesVehicle-related/OtherVehicleFluids/index.htm,Vehicle Related,Other Vehicle Fluids
+391,3001468,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/VehiclesVehicle-related/Tires/index.htm,Vehicle Related,Tires
+392,3001470,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/VehiclesVehicle-related/Vehicles/index.htm,Vehicle Related,Vehicles
+393,3001469,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/VehiclesVehicle-related/VehicleBatteries/index.htm,Vehicle Related,Vehicle Batteries
+394,2006234,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Wood/Ashes/index.htm,Wood,Ashes -- Fireplace and Briquettes
+395,3001609,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Wood/ChristmasTrees/index.htm,Wood,Christmas Trees
+396,3001608,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Wood/Corks/index.htm,Wood,Corks
+397,3001612,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Wood/PaintedTreatedWood/index.htm,Wood,Painted or Treated Wood
+398,3001610,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Wood/Pallets/index.htm,Wood,Pallets
+399,3001611,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Wood/ReusableLumber/index.htm,Wood,Reusable Lumber
+400,3001613,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Wood/WoodScrapsShavings/index.htm,Wood,"Wood Scraps, Shavings, and Sawdust"
+401,2000338,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Wood/WoodWasteClean/index.htm,Wood,Clean Wood Waste
+402,3001614,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/YardWaste/ChristmasTrees/index.htm,Yard Waste,Christmas Trees
+403,3001615,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/YardWaste/CleanSoil/index.htm,Yard Waste,Dirt and Soil
+404,3001616,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/YardWaste/ContaminatedSoil/index.htm,Yard Waste,Dirt and Soil - Contaminated
+405,3001619,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/YardWaste/GrassClipingsSod/index.htm,Yard Waste,Grass Clippings and Sod
+406,3001623,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/YardWaste/HousePlants/index.htm,Yard Waste,House Plants
+407,3001617,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/YardWaste/LeavesNon-WoodyYardwaste/index.htm,Yard Waste,Leaves and Non-Woody Yardwaste
+408,1000094,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/YardWaste/PetWasteLitter/index.htm,Yard Waste,Pet Waste and Litter
+409,3001621,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/YardWaste/PlantsTreeSalvage/index.htm,Yard Waste,Plants and Tree Salvage
+410,3001624,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/YardWaste/PlantPots/index.htm,Yard Waste,Plant Pots
+411,3001618,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/YardWaste/RocksGravel/index.htm,Yard Waste,Rocks and Gravel
+412,3001620,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/YardWaste/TreesBrush/index.htm,Yard Waste,Trees and Brush
+413,3001622,http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/YardWaste/WoodScrapsShavings/index.htm,Yard Waste,Wood Scraps and Shavings
