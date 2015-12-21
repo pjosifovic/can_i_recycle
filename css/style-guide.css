@@ -1,0 +1,138 @@
+* {
+  background-repeat: no-repeat;
+}
+
+body {
+  margin: 0 auto;
+  text-align: left;
+  max-width: 1080px;
+  padding-left: 10px;
+}
+
+
+/*header {
+  background-color: white;
+}*/
+
+header * {
+  margin: 5px 0;
+  height: 2em;
+  padding: 3px 0 3px 3px;;
+}
+.title {
+  font-family: "Franklin Gothic Book", sans-serif;
+  font-size: 1.625em;
+  color: black;
+}
+
+header .nav {
+  background-color: #6d6e70;
+  /*font-family: 'Gloria Hallelujah', cursive;*/
+  /*font-size: 1.6em;*/
+  color: white;
+}
+
+header .hover {
+  background-color: #59d62b;
+  color: white;
+}
+
+header .slogan {
+  background-color: #4b4b4c;
+  color: white;
+}
+
+header .paragraph_categories {
+  background-color: #e3e4e5;
+  color: black;
+}
+
+header .categories1 {
+  background-color: #f1f2f2;
+  color: black;
+}
+header .categories2 {
+  background-color: #86d335;
+  color: black;
+}
+
+header .footerColor {
+  background-color: #f1f2f2;
+  color: black;
+}
+
+
+/*========== TYPOGRAPHY ===========*/
+.content {
+  margin-top: 35px;
+}
+
+.content h2 {
+  font-family: "Franklin Gothic Book", sans-serif;
+  font-size: 1.6em;
+  font-style: italic;
+  color: black;
+}
+
+ul li {
+  font-family: "Franklin Gothic Book", sans-serif;
+  font-size: 0.625em;
+  color: black;
+}
+
+.content h4 {
+  margin: 0 auto;
+}
+
+.navFont {
+  font-family: "Seattle Sans", sans-serif;
+  color: black;
+  font-size: 1.5em;
+}
+
+.navFont:hover {
+  font-family: "Seattle Sans", sans-serif;
+  color: #59d62b;
+  font-size: 1.5em;
+}
+
+.mainButton {
+  font-family: "Helvetica", sans-serif;
+  color: white;
+  font-size: 1em;
+  background-color: black;
+}
+
+
+.sloganFont {
+  color: white;
+  font-family: "Seattle Sans", sans-serif;
+  font-size: 2em;
+  background-color: black;
+  text-transform: uppercase;
+}
+
+.cateFont {
+  font-family: "Corbel", sans-serif;
+  font-size: 1.3em;
+  color: black;
+}
+
+.bodyFont {
+  font-family: "Helvetica", sans-serif;
+  font-size: 1em;
+  color: white;
+  background-color: black;
+}
+
+.contactName {
+  font-family: "Corbel", sans-serif;
+  font-size: 2em;
+  color: black;
+}
+
+.contactFont {
+  font-family: "Helvetica", sans-serif;
+  font-size: 1em;
+  color: black
+}
