@@ -8,9 +8,9 @@ body {
     text-align: center;
   }
 
-body * {
+/*body * {
   border: 1px solid black;
-}
+}*/
 
 
 /*=============== index.html ===================*/
@@ -213,17 +213,56 @@ main .aboutRecycling p {
 }
 
 
-================= about_us.html ================
+/*================= about_us.html ================*/
 
 
-.aboutStudent {
+article.aboutStudent {
   display: flex;
-  align-items: flex-end;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 3em;
+  /*flex-wrap: wrap;*/
+}
+
+.aboutStudent .studentInfo h3 {
+  font-family: "Corbel", sans-serif;
+  font-size: 2em;
+  line-height: 1.5em;
 }
 
 
+.studentInfo p {
+  font-family: "Helvetica", sans-serif;
+  font-size: 1em;
+  line-height: 1.2em;
+  text-align: justify;
+  text-indent: 1.3em;
+  padding: 0 1.5em 0 1.5em;
+  margin-bottom: 20px;
+}
 
-.aboutStudent .studentInfo {
-  width: 40%;
+.studentImage img {
+  height: 100%;
+  margin-left: 1em;
+}
 
+.studentInfo .socialLogo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.studentInfo .socialLogo2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.studentInfo .socialLogo img, .socialLogo2 img {
+  margin-right: 5px;
+  width: 60%;
+}
+
+.studentInfo .socialLogo a, .socialLogo2 a {
+  border: 0;
 }
