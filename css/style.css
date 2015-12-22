@@ -8,9 +8,9 @@ body {
     text-align: center;
   }
 
-body * {
+/*body * {
   border: 1px solid black;
-}
+}*/
 
 
 /*=============== index.html ===================*/
@@ -43,7 +43,7 @@ main .indexImg p {
   border: 1px solid white;
   color: white;
   font-family: "Helvetica", sans-serif;
-  font-style: oblique;
+  font-weight: bold;
   font-size: 1.6em;
 }
 
@@ -66,7 +66,8 @@ footer {
 .footer ul {
   display: flex;;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
   width: 50%;
   margin-bottom: 0;
 }
@@ -88,6 +89,7 @@ footer {
 .footer ul a {
   text-decoration: none;
 }
+
 
 
 /*=============== recycle_this.html ============ */
@@ -116,7 +118,7 @@ header .headerLogo {
   flex-direction: row;
   margin-right: 30px;
   width: 100%;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-bottom: 0;
 }
 
@@ -124,6 +126,10 @@ header .headerLogo {
   text-decoration: none;
 }
 
+.header ul li.active {
+  color: #59d62b;
+  font-weight: bold;
+}
 
 .header ul li {
   list-style: none;
@@ -164,4 +170,44 @@ main .aboutRecycling p {
   text-indent: 1.5em;
   text-align: justify;
   margin-bottom: 0;
+}
+
+#mainSection {
+  padding: 3em;
+  background-color: #6d6e70;
+}
+
+#mainSection .categoriesRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 1em;
+  flex-wrap: wrap;
+}
+
+.categoriesRow .categoryOne,.categoryTwo {
+  width: 10em;
+  height: 10em;
+  margin-right: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.categoryOne {
+  background-color: #f1f2f2;
+}
+
+.categoryTwo {
+  background-color: #86d335;
+}
+
+.categoryOne p, .categoryTwo p {
+  margin-bottom: 0;
+  color: black;
+  font-family: "Corbel", sans-serif;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  padding: 1em;
+  font-weight: bold;
 }
