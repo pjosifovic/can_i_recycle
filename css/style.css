@@ -8,9 +8,9 @@ body {
     text-align: center;
   }
 
-body * {
+/*body * {
   border: 1px solid black;
-}
+}*/
 
 
 /*=============== index.html ===================*/
@@ -52,7 +52,6 @@ main .indexImg p:hover {
 }
 
 footer {
-  height: 120px;
   width: 100%;
   background-color: #f1f2f2;
 }
@@ -61,7 +60,7 @@ footer {
   display: flex;
   justify-content: center;
   padding-top: .7em;
-  height: 40px;
+  /*height: 40px;*/
 }
 
 .footer ul {
@@ -93,16 +92,13 @@ footer {
 /*=============== recycle_this.html ============ */
 
 
-header {
+/*header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.header {
-  display: flex;
-  width: 40%;
-}
+
 
 .header ul {
   display: flex;
@@ -110,7 +106,9 @@ header {
   margin-right: 30px;
   justify-content: space-between;
 }
-
-/*.header ul li {
-    display: flex;
-}*/
+.header {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  padding-top: .7em;
+}
