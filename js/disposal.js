@@ -1,9 +1,9 @@
 'use strict';
 
 // setting category to Paper for now, but we'll need a way to pass category fom recycle_this.html
-var category = 'Paper';
-
 var mainEl = document.getElementById('mainSection');
+
+var category = 'Paper';
 
 var itemArray = [];
 
@@ -14,21 +14,25 @@ var Item = function(name, parent, disposal, cityUrl) {
   this.cityUrl = cityUrl;
 };
 
+
+
 var renderItems = function() {
   var headingEl = document.createElement('h1');
   headingEl.appendChild(document.createTextNode(category));
-  var ulEl = document.createElement('ul');
-  var liEl = document.createElement('li');
-  liEl.appendChild(document.createTextNode('test1'));
-  ulEl.appendChild(liEl);
-  var liEl = document.createElement('li');
-  liEl.appendChild(document.createTextNode('test2'));
-  ulEl.appendChild(liEl);
   mainEl.appendChild(headingEl);
+  var ulEl = document.createElement('ul');
   mainEl.appendChild(ulEl);
+  for (var i = 0; i < itemArray.length; i += 1) {
+    if (itemArray[i][1].parent === category) {
+      var liEl = document.createElement('li');
+      console.log("foo");
+      liEl.appendChild(document.createTextNode(itemArray[i][0]));
+      ulEl.appendChild(liEl);
+    };
+  };
 };
 
-renderItems();
+
 
 var addItem = function(name, parent, disposal, cityUrl) {
   var newItem = new Item(name, parent, disposal, cityUrl);
@@ -36,7 +40,7 @@ var addItem = function(name, parent, disposal, cityUrl) {
 };
 
 addItem('Corrugated Cardboard','Paper',['recycle'],'http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/Cardboard/CardboardCorrugated/index.htm');
-addItem('Pizza Boxes','Paper,'['compost'],'http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/ContainersBoxesCartons/PizzaBoxes/index.htm');
+addItem('Pizza Boxes','Paper',['compost'],'http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/ContainersBoxesCartons/PizzaBoxes/index.htm');
 addItem('Stoves','Appliances and Household Items',['resuse,','dropoff'],'http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/Appliances/Stoves/index.htm');
 
 var disposalArray = [];
@@ -60,3 +64,5 @@ addDisposal('recycle','img/recycle_bin.png','Lorem ipsum dolor sit amet, consect
 addDisposal('compost','img/compost_bin.png','Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod');
 addDisposal('hazard','img/hazard_bin.png','Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod');
 addDisposal('trash','img/trash_bin.png','Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod');
+
+renderItems();
