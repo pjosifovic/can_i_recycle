@@ -8,9 +8,9 @@ body {
     text-align: center;
   }
 
-/*body * {
+body * {
   border: 1px solid black;
-}*/
+}
 
 
 /*=============== index.html ===================*/
@@ -210,4 +210,20 @@ main .aboutRecycling p {
   text-transform: uppercase;
   padding: 1em;
   font-weight: bold;
+}
+
+
+================= about_us.html ================
+
+
+.aboutStudent {
+  display: flex;
+  align-items: flex-end;
+}
+
+
+
+.aboutStudent .studentInfo {
+  width: 40%;
+
 }
