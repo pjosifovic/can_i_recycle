@@ -14,7 +14,7 @@ var Item = function(name, parent, disposal, cityUrl) {
   this.cityUrl = cityUrl;
 };
 
-(function() {
+var renderItems = function() {
   var headingEl = document.createElement('h1');
   headingEl.appendChild(document.createTextNode(category));
   var ulEl = document.createElement('ul');
@@ -26,7 +26,9 @@ var Item = function(name, parent, disposal, cityUrl) {
   ulEl.appendChild(liEl);
   mainEl.appendChild(headingEl);
   mainEl.appendChild(ulEl);
-})();
+};
+
+renderItems();
 
 var addItem = function(name, parent, disposal, cityUrl) {
   var newItem = new Item(name, parent, disposal, cityUrl);
