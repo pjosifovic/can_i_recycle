@@ -43,7 +43,7 @@ main .indexImg p {
   border: 1px solid white;
   color: white;
   font-family: "Helvetica", sans-serif;
-  font-style: oblique;
+  font-weight: bold;
   font-size: 1.6em;
 }
 
@@ -66,8 +66,10 @@ footer {
 .footer ul {
   display: flex;;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
   width: 50%;
+  margin-bottom: 0;
 }
 
 .footer ul li {
@@ -89,26 +91,123 @@ footer {
 }
 
 
+
 /*=============== recycle_this.html ============ */
 
 
-/*header {
+header {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  background-color: #6d6e70;
+  padding-top: 10px;
 }
 
+header .headerLogo {
+  margin-left: 40px;
+}
 
+.header {
+  width: 50%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
 
 .header ul {
   display: flex;
   flex-direction: row;
   margin-right: 30px;
+  width: 100%;
   justify-content: space-between;
+  margin-bottom: 0;
 }
-.header {
-  width: 40%;
+
+.header ul a {
+  text-decoration: none;
+}
+
+.header ul li.active {
+  color: #59d62b;
+  font-weight: bold;
+}
+
+.header ul li {
+  list-style: none;
+  font-family: "Seattle Sans", sans-serif;
+  font-size: 1.4em;
+  color: white;
+  letter-spacing: .3em;
+  margin-bottom: 0;
+}
+
+.header ul li:hover {
+  color: #59d62b;
+}
+
+
+main .slogan {
+  padding: .5em;
+  background-color: #4b4b4c;
+  font-family: "Seattle Sans", sans-serif;
+  font-size: 1.6em;
+  color: white;
+  text-align: center;
+  letter-spacing: .2em;
+  margin-bottom: 0;
+}
+
+main .aboutRecycling {
+  padding: 1em;
+  background-color: #e3e4e5;
   display: flex;
+  flex-wrap: wrap;
+}
+
+main .aboutRecycling p {
+  font-family: "Helvetica", sans-serif;
+  font-size: 1em;
+  color: black;
+  text-indent: 1.5em;
+  text-align: justify;
+  margin-bottom: 0;
+}
+
+#mainSection {
+  padding: 3em;
+  background-color: #6d6e70;
+}
+
+#mainSection .categoriesRow {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  padding-top: .7em;
+  margin-bottom: 1em;
+  flex-wrap: wrap;
+}
+
+.categoriesRow .categoryOne,.categoryTwo {
+  width: 10em;
+  height: 10em;
+  margin-right: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.categoryOne {
+  background-color: #f1f2f2;
+}
+
+.categoryTwo {
+  background-color: #86d335;
+}
+
+.categoryOne p, .categoryTwo p {
+  margin-bottom: 0;
+  color: black;
+  font-family: "Corbel", sans-serif;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  padding: 1em;
+  font-weight: bold;
 }
