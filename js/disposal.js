@@ -27,7 +27,6 @@ var renderItems = function() {
   for (var i = 0; i < itemArray.length; i += 1) {
     if (itemArray[i][1].parent === category) {
       var liEl = document.createElement('li');
-      // console.log("foo");
       liEl.appendChild(document.createTextNode(itemArray[i][0]));
       liEl.setAttribute("class", itemArray[i][1].disposal);
       ulEl.appendChild(liEl);
@@ -50,11 +49,11 @@ renderItems();
 
 // render disposal
 var renderDisposal = function() {
-  console.log("in the disposal FUNCTION");
+  console.log("in render disposal function");
   while (mainEl.firstChild){
       mainEl.removeChild(mainEl.firstChild);};
   var headingEl = document.createElement('h1');
-  headingEl.appendChild(document.createTextNode('category'));
+  headingEl.appendChild(document.createTextNode(category));
   mainEl.appendChild(headingEl);
   // if class of the LI, recycleEl.class="recycle"
   // while removeChild
@@ -65,11 +64,10 @@ var recycleEl = document.getElementsByClassName('recycle');
 var compostEl = document.getElementsByClassName('compost');
 
 function callingRecycle() {
-    console.log('in the event function');
-    for(var i=0; i<recycleEl.length; i++) {
-        console.log('in the for loop');
+    console.log('in the recycle event function');
+    for(var i = 0; i < recycleEl.length; i++) {
         recycleEl[i].addEventListener('click', function() {
-          console.log('in the event listener');
+          console.log('in the recycle event listener');
           renderDisposal();
           // SOME FUNCTION!
         });
@@ -78,11 +76,10 @@ function callingRecycle() {
 callingRecycle();
 
 function callingCompost() {
-  console.log('in the event function');
-  for(var i=0; i<compostEl.length; i++) {
-    console.log('in the for loop');
+  console.log('in the compost event function');
+  for(var i = 0; i < compostEl.length; i++) {
     compostEl[i].addEventListener('click', function() {
-      console.log('in the event listener');
+      console.log('in the compost event listener');
       renderDisposal();
       // SOME FUNCTION!
     });
