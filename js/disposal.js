@@ -6,28 +6,46 @@ var category = window.location.hash.slice(1);
 // grab main div
 var mainEl = document.getElementById('mainInner');
 
+// array for category keys and headers
+var categoryKeys = [
+  ['paper', 'Paper'],
+  ['metal', 'Metal'],
+  ['household_items', 'Household Items & Appliances'],
+  ['construction', 'Construction'],
+  ['electronics', 'Electronics'],
+  ['fabrics', 'Fabrics'],
+  ['food', 'Food'],
+  ['food_packaing', 'Food Packaging'],
+  ['glass_ceramics', 'Glass & Ceramics'],
+  ['hazardous_items', 'Hazardous Items'],
+  ['platic', 'Plastic'],
+  ['vehicle', 'Vehicle'],
+  ['wood', 'Wood'],
+  ['yard_waste', 'Yard Waste'],
+];
+
 // item array
 var itemArray = [];
 
 // item constructor
-var Item = function(name, parent, disposal, cityUrl) {
+var Item = function(name, parentKey, disposal, cityUrl) {
   this.name = name;
-  this.parent = parent;
+  this.parentKey = parentKey;
   this.disposal = disposal;
   this.cityUrl = cityUrl;
 };
 
 // item loader
-var addItem = function(name, parent, disposal, cityUrl) {
-  var newItem = new Item(name, parent, disposal, cityUrl);
+var addItem = function(name, parentKey, disposal, cityUrl) {
+  var newItem = new Item(name, parentKey, disposal, cityUrl);
   itemArray.push([name,newItem]);
 };
 
 // item data
-addItem('Corrugated Cardboard','Paper','recycle','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/Cardboard/CardboardCorrugated/index.htm');
-addItem('Pizza Boxes','Paper','compost','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/ContainersBoxesCartons/PizzaBoxes/index.htm');
-addItem('Corks','Wood','trash','http://www.seattle.gov');
-addItem('Pallets','Wood','resuse','http://www.seattle.gov');
+addItem('Corrugated Cardboard','paper','recycle','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/Cardboard/CardboardCorrugated/index.htm');
+addItem('Pizza Boxes','paper','compost','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/ContainersBoxesCartons/PizzaBoxes/index.htm');
+addItem('Corks','wood','trash','http://www.seattle.gov');
+addItem('Pallets','wood','reuse','http://www.seattle.gov');
 
 // render items
 var renderItems = function() {
@@ -41,7 +59,7 @@ var renderItems = function() {
   mainEl.appendChild(ulEl);
   // make list items
   for (var i = 0; i < itemArray.length; i += 1) {
-    if (itemArray[i][1].parent === category) {
+    if (itemArray[i][1].parentKey === category) {
       var liEl = document.createElement('li');
       liEl.appendChild(document.createTextNode(itemArray[i][0]));
       ulEl.appendChild(liEl);
@@ -101,4 +119,4 @@ addDisposal('recycle','img/recycle_bin.png','Lorem ipsum dolor sit amet, consect
 addDisposal('compost','img/compost_bin.png','Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod');
 addDisposal('hazard','img/hazard_bin.png','Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod');
 addDisposal('trash','img/trash_bin.png','Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod');
-addDisposal('reuse','img/reuse.png')
+addDisposal('reuse','img/reuse.png','Lorem lalalalallalalalalal');
