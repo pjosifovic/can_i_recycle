@@ -1,52 +1,82 @@
-//couldnt get this function to work correctly. Tried various variations. 
+// Done: this function ensures that data entered is numeric.
+// To Do: May need to add further validation for Seattle zip codes only. And throw errors/msg when zip codes with no shops are entered.
 
-// function zipValidation() {
-//   var uzip = document.ziptake.zip;
-// {
-//   if(allnumeric(uzip))
-//   return false;
-// }
-//   function allnumeric(uzip) {
-//     var numbers = /^[0-9]+$/;
-//       if(uzip.value.match(numbers)) {
-//       return true;
-//       } else {
-//         alert("Zip code must have numeric characters only");
-//         uzip.focus();
-//         return false;
-//       }
-// }
+function zipValidation() {
+  var uzip = document.zipFinder.zip;
+    if(allnumeric(uzip)) {
+    return false; }
+}
+function allnumeric(uzip) {
+  var numbers = /^[0-9]+$/;
+    if(uzip.value.match(numbers)) {
+    return true;
+  } else {
+    alert("Zip code must have numeric characters only");
+    uzip.focus();
+    return false;
+    };
+}
+
+// BELOW is code to reveal shops based on zip code entered.
+var allShops = [];
 //
-
-
-
-
-
-
-
-// var allShops = [];
-//
-// var zipCodes = [
-//   "98101",
-//   "98102",
-// ];
+ var allZipCodes = [
+   "98101",
+   "98102",
+ ];
 // // more zip codes to come. 27+++
+
+var mainEl = document.getElementById('revealZip');
+
+ function Shop(name, address, url, info, zipCode) { // info = description
+   this.name = name;
+   this.address = address;
+   this.url = url;
+   this.info = info;
+   this.zipCode = zipCode;
+}
+
+//shop loader
+var addShop = function(name, address, url, info, zipCode) {
+  var newShop = new addShop(name, address, url, info, zipCode);
+  allShops.push([name, newShop]);
+};
+
+//shop data per zip?
+
+addShop('Alexandra\'s', '412 Olive Way, Seattle, WA 98101', 'http://www.alexandrasonline.com', 'Consignment boutique with racks of designer clothing & accessories for bargain hunters.', '98101');
+
+ShopZip();
+
+// var renderShops = function() {
+//   // make page heading
+//   var headingEl = document.createElement('h1');
+//   headingEl.appendChild(document.createTextNode(allShops));
+//   mainEl.appendChild(headingEl);
+//   // make unordered list
+//   var ulEl = document.createElement('ul');
+//   ulEl.addEventListener('click', renderDisposal);
+//   mainEl.appendChild(ulEl);
+//   // make list items
+//   for (var i = 0; i < allShops.length; i += 1) {
+//     if (allShops[i][1].parent === allShops) {
+//       var liEl = document.createElement('li');
+//       liEl.appendChild(document.createTextNode(allShops[i][0]));
+//       ulEl.appendChild(liEl);
+//     };
+//   };
+// };
 //
-// function ShopZip(name, address, url, info, zipCode) { // info is short for description
-//   this.name = [];
-//   this.address = [];
-//   this.url = [];
-//   this.info = [];
-//   this.zipCode = zipCode;
-// }
-//
-// ShopZip.prototype.generateShops = function() {
+// renderShops();
+
+
+//  ShopZip.prototype.generateShops = function() {
 //   for(var i = 0; i < allShops.length; i ++) {
 //     var shopName = this.name;
 //     this.nameArray[i].push(shopName);
 //   }
 // }
-//
+// //
 // ShopZip.prototype.render = function() {
 //   this.generateShops();
 //     var zipEl = document.getElementsById("revealZip");
