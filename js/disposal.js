@@ -1,13 +1,15 @@
 'use strict';
 
 // setting category to Paper for now, but we'll need a way to pass category fom recycle_this.html
-var mainEl = document.getElementById('mainSection');
-// var disposalEl = document.getElementById('disposalSection')
-
 var category = 'Paper';
 
+// grab main div
+var mainEl = document.getElementById('mainSection');
+
+// item array
 var itemArray = [];
 
+// item constructor
 var Item = function(name, parent, disposal, cityUrl) {
   this.name = name;
   this.parent = parent;
@@ -15,8 +17,7 @@ var Item = function(name, parent, disposal, cityUrl) {
   this.cityUrl = cityUrl;
 };
 
-
-
+// item renderer
 var renderItems = function() {
   var headingEl = document.createElement('h1');
   headingEl.appendChild(document.createTextNode(category));
@@ -34,19 +35,20 @@ var renderItems = function() {
   };
 };
 
-
-
+// item loader
 var addItem = function(name, parent, disposal, cityUrl) {
   var newItem = new Item(name, parent, disposal, cityUrl);
   itemArray.push([name,newItem]);
 };
 
+// item data
 addItem('Corrugated Cardboard','Paper','recycle','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/Cardboard/CardboardCorrugated/index.htm');
 addItem('Pizza Boxes','Paper','compost','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/ContainersBoxesCartons/PizzaBoxes/index.htm');
 addItem('Stoves','Appliances and Household Items','resuse','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/Appliances/Stoves/index.htm');
 
 renderItems();
 
+// render disposal
 var renderDisposal = function() {
   console.log("in the disposal FUNCTION");
   while (mainEl.firstChild){
@@ -57,18 +59,13 @@ var renderDisposal = function() {
   // if class of the LI, recycleEl.class="recycle"
   // while removeChild
   // create <img src="img/recycle_bin">
-
-
-  }
-
 };
 
 var recycleEl = document.getElementsByClassName('recycle');
 var compostEl = document.getElementsByClassName('compost');
 
-
 function callingRecycle() {
-          console.log('in the event function');
+    console.log('in the event function');
     for(var i=0; i<recycleEl.length; i++) {
         console.log('in the for loop');
         recycleEl[i].addEventListener('click', function() {
@@ -80,21 +77,18 @@ function callingRecycle() {
 }
 callingRecycle();
 
-
 function callingCompost() {
-          console.log('in the event function');
-    for(var i=0; i<compostEl.length; i++) {
-        console.log('in the for loop');
-        compostEl[i].addEventListener('click', function() {
-          console.log('in the event listener');
-          renderDisposal();
-          // SOME FUNCTION!
-        });
-    };
+  console.log('in the event function');
+  for(var i=0; i<compostEl.length; i++) {
+    console.log('in the for loop');
+    compostEl[i].addEventListener('click', function() {
+      console.log('in the event listener');
+      renderDisposal();
+      // SOME FUNCTION!
+    });
+  };
 }
 callingCompost();
-
-
 
 // var disposalArray = [];
 //
