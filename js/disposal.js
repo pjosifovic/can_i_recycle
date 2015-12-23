@@ -62,7 +62,17 @@ var Disposal = function(heading, symbol, text) {
 
 // render disposables
 function renderDisposal(item) {
-  console.log('you clicked', item.target.innerHTML);
+  var disposalType = 0;
+  // loop through items again to find the disposal type for the item
+  for (var i = 0; i < itemArray.length; i += 1) {
+    if (itemArray[i][0] === item.target.innerHTML) {
+        disposalType = itemArray[i][1].disposal;
+    };
+  };  console.log('you clicked', item.target.innerHTML, " which is ", disposalType);
+  // loop through disposal until something matches the disposal type of our item
+  for (var i = 0; i < disposalArray.length; i += 1) {
+    //
+  };
 }
 
 // disposable loader
@@ -76,42 +86,3 @@ addDisposal('recycle','img/recycle_bin.png','Lorem ipsum dolor sit amet, consect
 addDisposal('compost','img/compost_bin.png','Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod');
 addDisposal('hazard','img/hazard_bin.png','Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod');
 addDisposal('trash','img/trash_bin.png','Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod');
-
-// var renderDisposal = function() {
-//   // console.log("in render disposal function");
-//   while (mainEl.firstChild){
-//       mainEl.removeChild(mainEl.firstChild);};
-//   var headingEl = document.createElement('h1');
-//   headingEl.appendChild(document.createTextNode(category));
-//   mainEl.appendChild(headingEl);
-//   // if class of the LI, recycleEl.class="recycle"
-//   // while removeChild
-//   // create <img src="img/recycle_bin">
-// };
-//
-// var recycleEl = document.getElementsByClassName('recycle');
-// var compostEl = document.getElementsByClassName('compost');
-//
-// function callingRecycle() {
-//     // console.log('in the recycle event function');
-//     for(var i = 0; i < recycleEl.length; i++) {
-//         recycleEl[i].addEventListener('click', function() {
-//           // console.log('in the recycle event listener');
-//           renderDisposal();
-//           // SOME FUNCTION!
-//         });
-//     };
-// }
-// callingRecycle();
-//
-// function callingCompost() {
-//   // console.log('in the compost event function');
-//   for(var i = 0; i < compostEl.length; i++) {
-//     compostEl[i].addEventListener('click', function() {
-//       // console.log('in the compost event listener');
-//       renderDisposal();
-//       // SOME FUNCTION!
-//     });
-//   };
-// }
-// callingCompost();
