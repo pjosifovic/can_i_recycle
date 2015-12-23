@@ -227,7 +227,7 @@ article.aboutStudent {
 }
 
 .aboutStudent .studentInfo h3 {
-  font-family: "Helvetica", sans-serif;
+  font-family: cursive;
   font-size: 2em;
   line-height: 1.5em;
 }
@@ -235,7 +235,7 @@ article.aboutStudent {
 
 .studentInfo p {
   font-family: "Helvetica", sans-serif;
-  font-size: 1em;
+  font-size: 1.2em;
   line-height: 1.2em;
   text-align: justify;
   text-indent: 1.3em;
@@ -244,7 +244,7 @@ article.aboutStudent {
 }
 
 .studentImage img {
-  height: 100%;
+  width: 40%
   margin-left: 1em;
 }
 
