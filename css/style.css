@@ -268,3 +268,59 @@ article.aboutStudent {
 .studentInfo .socialLogo a, .socialLogo2 a {
   border: 0;
 }
+
+/*=============== inner_cat.html ===========*/
+
+#mainInner {
+  padding: 3em;
+  background-color: #6d6e70;
+}
+
+/*#mainInner * {
+  border: 1px solid black;
+}*/
+
+#mainInner h1 {
+  text-align: left;
+  background-color: #f1f2f2;
+  font-family: "Helvetica", sans-serif;
+  padding-left: 10px;
+  font-size: 3em;
+  text-transform: uppercase;
+  font-style: italic;
+
+}
+
+#mainInner li {
+  background-color: #f1f2f2;
+  margin-left: 2em;
+  font-family: "Helvetica", sans-serif;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  text-align: left;
+  list-style: none;
+  padding-left: 10px;
+}
+
+#mainInner li:hover {
+  background-color: #5bb94a;
+  color: white;
+  cursor: pointer;
+}
+
+#mainInner h2 {
+  font-family: cursive;
+  font-size: 3em;
+}
+
+#mainInner img {
+  width: 25%;
+  margin-bottom: 2em;
+}
+
+#mainInner .disposalText {
+  font-family: "Vedrana", sans-serif;
+  font-size: 2em;
+  line-height: normal;
+  padding: 0 5em 0 5em;
+}
