@@ -17,23 +17,6 @@ var Item = function(name, parent, disposal, cityUrl) {
   this.cityUrl = cityUrl;
 };
 
-// item renderer
-var renderItems = function() {
-  var headingEl = document.createElement('h1');
-  headingEl.appendChild(document.createTextNode(category));
-  mainEl.appendChild(headingEl);
-  var ulEl = document.createElement('ul');
-  mainEl.appendChild(ulEl);
-  for (var i = 0; i < itemArray.length; i += 1) {
-    if (itemArray[i][1].parent === category) {
-      var liEl = document.createElement('li');
-      liEl.appendChild(document.createTextNode(itemArray[i][0]));
-      liEl.setAttribute("class", itemArray[i][1].disposal);
-      ulEl.appendChild(liEl);
-    };
-  };
-};
-
 // item loader
 var addItem = function(name, parent, disposal, cityUrl) {
   var newItem = new Item(name, parent, disposal, cityUrl);
@@ -45,66 +28,90 @@ addItem('Corrugated Cardboard','Paper','recycle','http://www.seattle.gov/util/My
 addItem('Pizza Boxes','Paper','compost','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/ContainersBoxesCartons/PizzaBoxes/index.htm');
 addItem('Stoves','Appliances and Household Items','resuse','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/Appliances/Stoves/index.htm');
 
-renderItems();
-
-// render disposal
-var renderDisposal = function() {
-  console.log("in render disposal function");
-  while (mainEl.firstChild){
-      mainEl.removeChild(mainEl.firstChild);};
+// render items
+var renderItems = function() {
+  // make page heading
   var headingEl = document.createElement('h1');
   headingEl.appendChild(document.createTextNode(category));
   mainEl.appendChild(headingEl);
-  // if class of the LI, recycleEl.class="recycle"
-  // while removeChild
-  // create <img src="img/recycle_bin">
+  // make unordered list
+  var ulEl = document.createElement('ul');
+  ulEl.addEventListener('click', renderDisposal);
+  mainEl.appendChild(ulEl);
+  // make list items
+  for (var i = 0; i < itemArray.length; i += 1) {
+    if (itemArray[i][1].parent === category) {
+      var liEl = document.createElement('li');
+      liEl.appendChild(document.createTextNode(itemArray[i][0]));
+      ulEl.appendChild(liEl);
+    };
+  };
 };
 
-var recycleEl = document.getElementsByClassName('recycle');
-var compostEl = document.getElementsByClassName('compost');
+renderItems();
 
-function callingRecycle() {
-    console.log('in the recycle event function');
-    for(var i = 0; i < recycleEl.length; i++) {
-        recycleEl[i].addEventListener('click', function() {
-          console.log('in the recycle event listener');
-          renderDisposal();
-          // SOME FUNCTION!
-        });
-    };
+// disposal array
+var disposalArray = [];
+
+// disposal constructor
+var Disposal = function(heading, symbol, text) {
+  this.heading = heading;
+  this.symbol = symbol;
+  this.text = text;
+};
+
+// render disposables
+function renderDisposal(item) {
+  console.log('you clicked', item.target.innerHTML);
 }
-callingRecycle();
 
-function callingCompost() {
-  console.log('in the compost event function');
-  for(var i = 0; i < compostEl.length; i++) {
-    compostEl[i].addEventListener('click', function() {
-      console.log('in the compost event listener');
-      renderDisposal();
-      // SOME FUNCTION!
-    });
-  };
-}
-callingCompost();
+// disposable loader
+var addDisposal = function(heading, symbol, text) {
+    var newDisposal = new Disposal(heading, symbol, text);
+    disposalArray.push([heading,newDisposal]);
+};
 
-// var disposalArray = [];
-//
-// var Disposal = function(heading, symbol, text) {
-//   this.heading = heading;
-//   this.symbol = symbol;
-//   this.text = text;
+// disposable data
+addDisposal('recycle','img/recycle_bin.png','Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod');
+addDisposal('compost','img/compost_bin.png','Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod');
+addDisposal('hazard','img/hazard_bin.png','Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod');
+addDisposal('trash','img/trash_bin.png','Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod');
+
+// var renderDisposal = function() {
+//   // console.log("in render disposal function");
+//   while (mainEl.firstChild){
+//       mainEl.removeChild(mainEl.firstChild);};
+//   var headingEl = document.createElement('h1');
+//   headingEl.appendChild(document.createTextNode(category));
+//   mainEl.appendChild(headingEl);
+//   // if class of the LI, recycleEl.class="recycle"
+//   // while removeChild
+//   // create <img src="img/recycle_bin">
 // };
 //
-// Disposal.prototype.render = function() {
-//   // To come
-// };
+// var recycleEl = document.getElementsByClassName('recycle');
+// var compostEl = document.getElementsByClassName('compost');
 //
-// var addDisposal = function(heading, symbol, text) {
-//     var newDisposal = new Disposal(heading, symbol, text);
-//     disposalArray.push([heading,newDisposal]);
-// };
+// function callingRecycle() {
+//     // console.log('in the recycle event function');
+//     for(var i = 0; i < recycleEl.length; i++) {
+//         recycleEl[i].addEventListener('click', function() {
+//           // console.log('in the recycle event listener');
+//           renderDisposal();
+//           // SOME FUNCTION!
+//         });
+//     };
+// }
+// callingRecycle();
 //
-// addDisposal('recycle','img/recycle_bin.png','Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod');
-// addDisposal('compost','img/compost_bin.png','Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod');
-// addDisposal('hazard','img/hazard_bin.png','Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod');
-// addDisposal('trash','img/trash_bin.png','Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod');
+// function callingCompost() {
+//   // console.log('in the compost event function');
+//   for(var i = 0; i < compostEl.length; i++) {
+//     compostEl[i].addEventListener('click', function() {
+//       // console.log('in the compost event listener');
+//       renderDisposal();
+//       // SOME FUNCTION!
+//     });
+//   };
+// }
+// callingCompost();
