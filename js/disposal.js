@@ -68,10 +68,23 @@ function renderDisposal(item) {
     if (itemArray[i][0] === item.target.innerHTML) {
         disposalType = itemArray[i][1].disposal;
     };
-  };  console.log('you clicked', item.target.innerHTML, " which is ", disposalType);
+  };
+  console.log('you clicked', item.target.innerHTML, " which is ", disposalType);
   // loop through disposal until something matches the disposal type of our item
   for (var i = 0; i < disposalArray.length; i += 1) {
-    //
+    if (disposalType === disposalArray[i][0]) {
+      console.log(disposalArray[i][1].symbol);
+      mainEl.innerHTML = '';
+      var h1El = document.createElement('h1');
+      var imgEl = document.createElement('img');
+      var pEl = document.createElement('p');
+      h1El.appendChild(document.createTextNode(disposalArray[i][1].heading));
+      imgEl.src = disposalArray[i][1].symbol;
+      pEl.appendChild(document.createTextNode(disposalArray[i][1].text));
+      mainEl.appendChild(h1El);
+      mainEl.appendChild(imgEl);
+      mainEl.appendChild(pEl);
+    };
   };
 }
 
