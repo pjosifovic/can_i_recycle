@@ -1,7 +1,7 @@
 'use strict';
 
-// setting category to Paper for now, but we'll need a way to pass category fom recycle_this.html
-var category = 'Paper';
+// grab category from end of url
+var category = window.location.hash.slice(1);
 
 // grab main div
 var mainEl = document.getElementById('mainInner');
@@ -26,7 +26,8 @@ var addItem = function(name, parent, disposal, cityUrl) {
 // item data
 addItem('Corrugated Cardboard','Paper','recycle','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/Cardboard/CardboardCorrugated/index.htm');
 addItem('Pizza Boxes','Paper','compost','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/ContainersBoxesCartons/PizzaBoxes/index.htm');
-addItem('Stoves','Appliances and Household Items','resuse','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/Appliances/Stoves/index.htm');
+addItem('Corks','Wood','trash','http://www.seattle.gov');
+addItem('Pallets','Wood','resuse','http://www.seattle.gov');
 
 // render items
 var renderItems = function() {
@@ -100,3 +101,4 @@ addDisposal('recycle','img/recycle_bin.png','Lorem ipsum dolor sit amet, consect
 addDisposal('compost','img/compost_bin.png','Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod');
 addDisposal('hazard','img/hazard_bin.png','Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod');
 addDisposal('trash','img/trash_bin.png','Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod');
+addDisposal('reuse','img/reuse.png')
