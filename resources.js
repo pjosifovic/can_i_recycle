@@ -56,8 +56,9 @@ var renderShops = function() {
   ulEl.addEventListener('click', renderShops);
   mainEl.appendChild(ulEl);
   // make list items
+  //Trish you adjusted this to end with zipCat[i] instead of just simply zipCat
   for (var i = 0; i < allZips.length; i += 1) {
-    if (allZips[i][1].zipCode === zipCat1) {
+    if (allZips[i][1].zipCode === zipCat[i]) {
       var liEl = document.createElement('li');
       liEl.appendChild(document.createTextNode(allZips[i][0]));
       ulEl.appendChild(liEl);
