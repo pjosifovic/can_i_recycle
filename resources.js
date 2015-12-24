@@ -1,68 +1,71 @@
 // Done: got this zipValidation working. After changing format.
 // To Do: May need to add further validation for Seattle zip codes only. And throw errors/msg when zip codes with no shops are entered.
-
 function zipValidation(ziptake) {
     var isValid = /^[0-9]{5}(?:-[0-9]{4})?$/.test(ziptake);
     if (isValid)
-        alert('Valid ZipCode');
+        alert('Valid Zip Code');
     else {
-        alert('Invalid ZipCode, please use numeric characters only');
+        alert('Invalid Zip Code, please use numeric characters only!');
     }
 }
+//testing:
+
+var zipCat1 = '98101';
+
+// grab main div
+var mainEl = document.getElementById('revealZip');
+
+// item array
+var allZips = [];
+
+// item constructor
+var Shop = function(name, address, url, info, zipCode) { //loader function
+  this.name = name;
+  this.address = address;
+  this.url = url;
+  this.info = info;
+  this.zipCode = zipCode;
+};
+
+// item loader
+var addShop = function(name, address, url, info, zipCode) {
+  var newShop = new Shop(name, address, url, info, zipCode);
+  allZips.push([name,newShop]);
+};
+
+//5th Avenue Boutique add: 1118 5th Ave url: https://www.ywcaworks.org/boutique, // info: 'Shop the YWCA's resale boutique in downtown Seattle for low prices on high-quality women's fashion.' zipCode 98101
 
 
+// item data
+addShop('Alexandras','412 Olive Way','http://www.alexandrasonline.com','Consignment boutique with racks of designer clothing & accessories for bargain hunters.', '98101');
 
-// // BELOW is code to reveal shops based on zip code entered.
-// var allShops = [];
-// //
-//  var allZipCodes = [
-//    "98101",
-//    "98102",
-//  ];
-// // // more zip codes to come. 27+++
-//
-// var mainEl = document.getElementById('revealZip');
-//
-//  function Shop(name, address, url, info, zipCode) { // info = description
-//    this.name = name;
-//    this.address = address;
-//    this.url = url;
-//    this.info = info;
-//    this.zipCode = zipCode;
-// }
-//
-// //shop loader
-// var addShop = function(name, address, url, info, zipCode) {
-//   var newShop = new addShop(name, address, url, info, zipCode);
-//   allShops.push([name, newShop]);
-// };
-//
-// //shop data per zip?
-//
-// addShop('Alexandra\'s', '412 Olive Way, Seattle, WA 98101', 'http://www.alexandrasonline.com', 'Consignment boutique with racks of designer clothing & accessories for bargain hunters.', '98101');
-//
-// ShopZip();
+addShop('2nd Hand Gala', '1501 Pike Pl', 'https://www.facebook.com/2ndHandGALA/', 'Used, Vintage & Consignment in Seattle', '98101');
 
-// var renderShops = function() {
-//   // make page heading
-//   var headingEl = document.createElement('h1');
-//   headingEl.appendChild(document.createTextNode(allShops));
-//   mainEl.appendChild(headingEl);
-//   // make unordered list
-//   var ulEl = document.createElement('ul');
-//   ulEl.addEventListener('click', renderDisposal);
-//   mainEl.appendChild(ulEl);
-//   // make list items
-//   for (var i = 0; i < allShops.length; i += 1) {
-//     if (allShops[i][1].parent === allShops) {
-//       var liEl = document.createElement('li');
-//       liEl.appendChild(document.createTextNode(allShops[i][0]));
-//       ulEl.appendChild(liEl);
-//     };
-//   };
-// };
-//
-// renderShops();
+addShop('5th Avenue Boutique', '1118 5th Ave', 'https://www.ywcaworks.org/boutique', 'YWCA\'s resale boutique in downtown Seattle for low prices on high-quality women\'s fashion.', '98101');
+
+addShop('Lion Heart Book Store', 'Pike Place Market', 'https://www.facebook.com/pages/Lion-Heart-Book-Store/111488748887345', 'Used book store', '98101');
+
+// render items
+var renderShops = function() {
+  // make page heading
+  var headingEl = document.createElement('h1');
+  headingEl.appendChild(document.createTextNode(zipCat1));
+  mainEl.appendChild(headingEl);
+  // make unordered list
+  var ulEl = document.createElement('ul');
+  ulEl.addEventListener('click', renderShops);
+  mainEl.appendChild(ulEl);
+  // make list items
+  for (var i = 0; i < allZips.length; i += 1) {
+    if (allZips[i][1].zipCode === zipCat1) {
+      var liEl = document.createElement('li');
+      liEl.appendChild(document.createTextNode(allZips[i][0]));
+      ulEl.appendChild(liEl);
+    };
+  };
+};
+
+renderShops();
 
 
 //  ShopZip.prototype.generateShops = function() {
