@@ -1,21 +1,16 @@
-// Done: this function ensures that data entered is numeric.
+// Done: got this zipValidation working. After changing format.
 // To Do: May need to add further validation for Seattle zip codes only. And throw errors/msg when zip codes with no shops are entered.
 
-function zipValidation() {
-  var uzip = document.ziptake.zip;
-    if(allnumeric(uzip)) {
-    return false; }
+function zipValidation(ziptake) {
+    var isValid = /^[0-9]{5}(?:-[0-9]{4})?$/.test(ziptake);
+    if (isValid)
+        alert('Valid ZipCode');
+    else {
+        alert('Invalid ZipCode, please use numeric characters only');
+    }
 }
-function allnumeric(uzip) {
-  var numbers = /^[0-9]+$/;
-    if(uzip.value.match(numbers)) {
-    return true;
-  } else {
-    alert("Zip code must have numeric characters only");
-    uzip.focus();
-    return false;
-  };
-}
+
+
 
 // // BELOW is code to reveal shops based on zip code entered.
 // var allShops = [];
