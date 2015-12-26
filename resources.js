@@ -1,33 +1,50 @@
 // Done: got this zipValidation working. After changing format.
 // To Do: May need to add further validation for Seattle zip codes only. And throw errors/msg when zip codes with no shops are entered.
-// function zipValidation(ziptake) {
-//     var isValid = /^[0-9]{5}(?:-[0-9]{4})?$/.test(ziptake);
-//     if (isValid)
-//         alert('Valid Zip Code');
-//     else {
-//         alert('Invalid Zip Code, please use numeric characters only!');
-//     }
-// }
-
-function myFunction() {
-  var text;
-  var enterZip = document.getElementById("zipPut").value;
-
-  switch(enterZip) {
-    case "98101":
-      text = "testing 1.";
-      break;
-    case "98102":
-      text = "I am not a fan!";
-      break;
-    case "98122":
-      text = "this is in the cd";
-      break;
-    default:
-      text = "Either your outside of our coverage or you don't have any matching stores";
-  }
-  document.getElementsById("revealZip").innerHTML = text;
+function zipValidation(ziptake) {
+    var isValid = /^[0-9]{5}(?:-[0-9]{4})?$/.test(ziptake);
+    if (isValid)
+        alert('Valid Zip Code');
+    else {
+        alert('Invalid Zip Code, please use numeric characters only!');
+    }
 }
+
+function initialize() {
+  var mapCanvas = document.getElementById('map');
+  var mapOptions = {
+    center: new google.maps.LatLng(44.5403, -78.5463),
+    zoom: 8,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  }
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+
+
+
+
+
+
+//
+// function myFunction() {
+//   var text;
+//   var enterZip = document.getElementById("zipPut").value;
+//
+//   switch(enterZip) {
+//     case "98101":
+//       text = "testing 1.";
+//       break;
+//     case "98102":
+//       text = "I am not a fan!";
+//       break;
+//     case "98122":
+//       text = "this is in the cd";
+//       break;
+//     default:
+//       text = "Either your outside of our coverage or you don't have any matching stores";
+//   }
+//   document.getElementsById("revealZip").innerHTML = text;
+// }
 
 
 
