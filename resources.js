@@ -44,10 +44,10 @@ var addShop = function(name, address, url, info, zipCode) {
 // item data
 addShop('Alexandras','412 Olive Way','http://www.alexandrasonline.com','Consignment boutique with racks of designer clothing & accessories for bargain hunters.', '98101');
 
-addShop('2nd Hand Gala', '1501 Pike Pl', 'https://www.facebook.com/2ndHandGALA/', 'Used, Vintage & Consignment in Seattle', '98102');
-//changed zipCode
+addShop('2nd Hand Gala', '1501 Pike Pl', 'https://www.facebook.com/2ndHandGALA/', 'Used, Vintage & Consignment in Seattle', '98101');
 
-addShop('5th Avenue Boutique', '1118 5th Ave', 'https://www.ywcaworks.org/boutique', 'YWCA\'s resale boutique in downtown Seattle for low prices on high-quality women\'s fashion.', '98101');
+addShop('5th Avenue Boutique', '1118 5th Ave', 'https://www.ywcaworks.org/boutique', 'YWCA\'s resale boutique in downtown Seattle for low prices on high-quality women\'s fashion.', '98102');
+//changed above
 
 addShop('Lion Heart Book Store', 'Pike Place Market', 'https://www.facebook.com/pages/Lion-Heart-Book-Store/111488748887345', 'Used book store', '98101');
 
@@ -56,10 +56,11 @@ var renderShops = function(event) {
   mainEl.innerHTML = '';
   var inputEl = document.getElementById('zipPut').value;
   console.log(inputEl);
-
+  var match = false;
   for(var i = 0; i < allShops.length; i ++) {
     if (inputEl === allShops[i][1].zipCode) {
       //display aprop info
+      match = true;
       var headingEl = document.createElement('h1');
       headingEl.appendChild(document.createTextNode(allShops[i][0]));
       mainEl.appendChild(headingEl);
@@ -78,20 +79,58 @@ var renderShops = function(event) {
       zipEl.appendChild(document.createTextNode(allShops[i][1].zipCode));
       ulEl.appendChild(zipEl);
       mainEl.appendChild(ulEl);
-      console.log("you're crazy");
-    } else {
+      // match = false;
+    } else if (i === allShops.length-1  && match === false) {
         var headingEl = document.createElement('h1');
         headingEl.appendChild(document.createTextNode("I'm sorry, it seems we have no information for you zipCode."));
         mainEl.appendChild(headingEl);
       }
-  }    
+  }
 };
+
+
+
 var submitEl = document.getElementById('ziptake');
 submitEl.addEventListener('submit', function() {
   event.preventDefault();
   console.log('in the event');
   renderShops();
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
