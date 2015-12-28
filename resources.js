@@ -44,39 +44,47 @@ var addShop = function(name, address, url, info, zipCode) {
 // item data
 addShop('Alexandras','412 Olive Way','http://www.alexandrasonline.com','Consignment boutique with racks of designer clothing & accessories for bargain hunters.', '98101');
 
-addShop('2nd Hand Gala', '1501 Pike Pl', 'https://www.facebook.com/2ndHandGALA/', 'Used, Vintage & Consignment in Seattle', '98101');
+addShop('2nd Hand Gala', '1501 Pike Pl', 'https://www.facebook.com/2ndHandGALA/', 'Used, Vintage & Consignment in Seattle', '98102');
+//changed zipCode
 
 addShop('5th Avenue Boutique', '1118 5th Ave', 'https://www.ywcaworks.org/boutique', 'YWCA\'s resale boutique in downtown Seattle for low prices on high-quality women\'s fashion.', '98101');
 
 addShop('Lion Heart Book Store', 'Pike Place Market', 'https://www.facebook.com/pages/Lion-Heart-Book-Store/111488748887345', 'Used book store', '98101');
 
 // render items
-var inputEl; 
 var renderShops = function(event) {
-  var inputEl = event.target.zipPut.value;
+  mainEl.innerHTML = '';
+  var inputEl = document.getElementById('zipPut').value;
   console.log(inputEl);
 
   for(var i = 0; i < allShops.length; i ++) {
-    var headingEl = document.createElement('h1');
-    headingEl.appendChild(document.createTextNode(allShops[i][0]));
-    mainEl.appendChild(headingEl);
-    // make unordered list
-    var ulEl = document.createElement('ul');
-    var addEl = document.createElement('li');
-    addEl.appendChild(document.createTextNode(allShops[i][1].address));
-    ulEl.appendChild(addEl);
-    var urlEl = document.createElement('li');
-    urlEl.appendChild(document.createTextNode(allShops[i][1].url));
-    ulEl.appendChild(urlEl);
-    var infoEl = document.createElement('li');
-    infoEl.appendChild(document.createTextNode(allShops[i][1].info));
-    ulEl.appendChild(infoEl);
-    var zipEl = document.createElement('li');
-    zipEl.appendChild(document.createTextNode(allShops[i][1].zipCode));
-    ulEl.appendChild(zipEl);
-    mainEl.appendChild(ulEl);
-    console.log("you're crazy");
-    }
+    if (inputEl === allShops[i][1].zipCode) {
+      //display aprop info
+      var headingEl = document.createElement('h1');
+      headingEl.appendChild(document.createTextNode(allShops[i][0]));
+      mainEl.appendChild(headingEl);
+      // make unordered list
+      var ulEl = document.createElement('ul');
+      var addEl = document.createElement('li');
+      addEl.appendChild(document.createTextNode(allShops[i][1].address));
+      ulEl.appendChild(addEl);
+      var urlEl = document.createElement('li');
+      urlEl.appendChild(document.createTextNode(allShops[i][1].url));
+      ulEl.appendChild(urlEl);
+      var infoEl = document.createElement('li');
+      infoEl.appendChild(document.createTextNode(allShops[i][1].info));
+      ulEl.appendChild(infoEl);
+      var zipEl = document.createElement('li');
+      zipEl.appendChild(document.createTextNode(allShops[i][1].zipCode));
+      ulEl.appendChild(zipEl);
+      mainEl.appendChild(ulEl);
+      console.log("you're crazy");
+    } else {
+        var headingEl = document.createElement('h1');
+        headingEl.appendChild(document.createTextNode("I'm sorry, it seems we have no information for you zipCode."));
+        mainEl.appendChild(headingEl);
+      }
+  }    
 };
 var submitEl = document.getElementById('ziptake');
 submitEl.addEventListener('submit', function() {
