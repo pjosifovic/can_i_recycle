@@ -51,15 +51,32 @@ addShop('5th Avenue Boutique', '1118 5th Ave', 'https://www.ywcaworks.org/boutiq
 addShop('Lion Heart Book Store', 'Pike Place Market', 'https://www.facebook.com/pages/Lion-Heart-Book-Store/111488748887345', 'Used book store', '98101');
 
 // render items
+var inputEl; 
 var renderShops = function(event) {
   var inputEl = event.target.zipPut.value;
-  console.log("hello world.");
+  console.log(inputEl);
+
   for(var i = 0; i < allShops.length; i ++) {
-    if (inputEL === allShops[i][1].zipCodes) {
-      console.log("you're crazy");
-    } else {
+    var headingEl = document.createElement('h1');
+    headingEl.appendChild(document.createTextNode(allShops[i][0]));
+    mainEl.appendChild(headingEl);
+    // make unordered list
+    var ulEl = document.createElement('ul');
+    var addEl = document.createElement('li');
+    addEl.appendChild(document.createTextNode(allShops[i][1].address));
+    ulEl.appendChild(addEl);
+    var urlEl = document.createElement('li');
+    urlEl.appendChild(document.createTextNode(allShops[i][1].url));
+    ulEl.appendChild(urlEl);
+    var infoEl = document.createElement('li');
+    infoEl.appendChild(document.createTextNode(allShops[i][1].info));
+    ulEl.appendChild(infoEl);
+    var zipEl = document.createElement('li');
+    zipEl.appendChild(document.createTextNode(allShops[i][1].zipCode));
+    ulEl.appendChild(zipEl);
+    mainEl.appendChild(ulEl);
+    console.log("you're crazy");
     }
-  }
 };
 var submitEl = document.getElementById('ziptake');
 submitEl.addEventListener('submit', function() {
