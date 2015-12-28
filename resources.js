@@ -185,9 +185,14 @@ var renderShops = function(event) {
       var addEl = document.createElement('li');
       addEl.appendChild(document.createTextNode(allShops[i][1].address));
       ulEl.appendChild(addEl);
+
       var urlEl = document.createElement('li');
       urlEl.appendChild(document.createTextNode(allShops[i][1].url));
-      ulEl.appendChild(urlEl);
+      var addATag = document.createElement('a');
+      addATag.setAttribute('href', allShops[i][1].url);
+      addATag.appendChild(urlEl);
+      ulEl.appendChild(addATag);
+
       var infoEl = document.createElement('li');
       infoEl.appendChild(document.createTextNode(allShops[i][1].info));
       ulEl.appendChild(infoEl);

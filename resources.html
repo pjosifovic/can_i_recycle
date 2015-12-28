@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Resources</title>
-
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
+    <link href='https://fonts.googleapis.com/css?family=Teko:300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
@@ -16,27 +16,48 @@
       <nav class="header">
         <ul>
           <a href="index.html"><li>Home</li></a>
+          <a href="about_us.html"><li >About us</li></a>
+          <a href="recycle_this.html"><li>Recycle this</li></a>
+          <a href="resources.html"><li class="active">Resources</li></a>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <p class="slogan">RESOURCES</p>
+      <section class="aboutRecycling">
+        <h4>Resources for Reuse</h4>
+          <p>Reuse is different from recycling, although people often confuse the two. Recycling is a good practice but it uses a lot of energy and requires an industrial alchemy to a product. Reusing a product, however, does not require major manufacturing manipulation. A reused object is simply put back to work, whether for its original purpose or not.</p>
+          <p>Examples of or reusing materials include:</p>
+            <ul>
+              <li>onating old, working computers to a school</li>
+              <li>Allowing customers to return used packaging (e.g., boxes, packing peanuts, bubble wrap), so that the business can use it again</li>
+              <li>Furnishing an office with reclaimed materials instead of purchasing new chairs, tables, etc.</li>
+            </ul>
+      </section>
+      <div id="mainSection">
+        <figure>
+          <form id="ziptake">
+            <label for="zipPut">Find Reuse Resources Near You!</label>
+              <input id="zipPut" type="text" name="zip" placeholder="Enter your Zip Code"/>
+              <input id ="button1" type="submit" name="submit" value="submit">
+          </form>
+        </figure>
+        <div id="revealZip"></div>
+      </div>
+    </main>
+    <footer>
+      <nav class="footer">
+        <ul>
+          <a href="index.html"><li>Home</li></a>
           <a href="about_us.html"><li>About us</li></a>
           <a href="recycle_this.html"><li>Recycle this</li></a>
           <a href="resources.html"><li>Resources</li></a>
         </ul>
       </nav>
-    </header>
-    <section>
-      Chillwave banjo deep v, echo park keytar everyday carry 8-bit narwhal heirloom hammock irony franzen portland. Franzen listicle banh mi, raw denim viral aesthetic mixtape organic tumblr trust fund semiotics sustainable. Butcher banjo typewriter tumblr XOXO gentrify neutra, 90's salvia. Vegan readymade echo park before they sold out. Roof party venmo ugh godard next level. Disrupt wayfarers hashtag, green juice godard kombucha kogi cliche. Truffaut biodiesel semiotics polaroid, seitan photo booth listicle.
-    </section>
-    <figure>
-      <form id="ziptake">
-        <label for="zipPut">Find Reuse Resources Near You!</label>
-          <input id="zipPut" type="text" name="zip" placeholder="Enter your Zip Code"/>
-          <input id ="button1" type="submit" name="submit" value="submit">
-      </form>
-    </figure>
-    <div id="revealZip">Box for Results</div>
+      <section class="footerLogo">
+        <img src="img/footer_logo.png" alt="can i recycle logo" />
+      </section>
+    </footer>
     <script src="resources.js"></script>
-  </body>
- <footer>
-   <nav></nav>
-   <section></section>
- </footer>
-</html>
+   </body>
+ </html>
