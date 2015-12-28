@@ -1,7 +1,12 @@
 'use strict';
 
+
+// setting category to Paper for now, but we'll need a way to pass category fom recycle_this.html
+var category = 'Paper';
+
 // grab category from end of url
 var category = window.location.hash.slice(1);
+
 
 // grab main div
 var mainEl = document.getElementById('mainInner');
@@ -28,6 +33,9 @@ var categoryKeys = [
 var itemArray = [];
 
 // item constructor
+var Item = function(name, parent, disposal, cityUrl) { //loader function
+  this.name = name;
+  this.parent = parent;
 var Item = function(name, parentKey, disposal, cityUrl) {
   this.name = name;
   this.parentKey = parentKey;
@@ -36,12 +44,17 @@ var Item = function(name, parentKey, disposal, cityUrl) {
 };
 
 // item loader
+var addItem = function(name, parent, disposal, cityUrl) {
+  var newItem = new Item(name, parent, disposal, cityUrl);
 var addItem = function(name, parentKey, disposal, cityUrl) {
   var newItem = new Item(name, parentKey, disposal, cityUrl);
   itemArray.push([name,newItem]);
 };
 
 // item data
+addItem('Corrugated Cardboard','Paper','recycle','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/Cardboard/CardboardCorrugated/index.htm');
+addItem('Pizza Boxes','Paper','compost','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/ContainersBoxesCartons/PizzaBoxes/index.htm');
+addItem('Stoves','Appliances and Household Items','resuse','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/Appliances/Stoves/index.htm');
 addItem('Corrugated Cardboard','paper','recycle','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/Cardboard/CardboardCorrugated/index.htm');
 addItem('Pizza Boxes','paper','compost','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/ContainersBoxesCartons/PizzaBoxes/index.htm');
 addItem('Corks','wood','trash','http://www.seattle.gov');
@@ -59,6 +72,7 @@ var renderItems = function() {
   mainEl.appendChild(ulEl);
   // make list items
   for (var i = 0; i < itemArray.length; i += 1) {
+    if (itemArray[i][1].parent === category) {
     if (itemArray[i][1].parentKey === category) {
       var liEl = document.createElement('li');
       liEl.appendChild(document.createTextNode(itemArray[i][0]));
