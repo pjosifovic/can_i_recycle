@@ -19,9 +19,6 @@ var addShop = function(name, address, url, info, zipCode) {
   allShops.push([name,newShop]);
 };
 
-//5th Avenue Boutique add: 1118 5th Ave url: https://www.ywcaworks.org/boutique, // info: 'Shop the YWCA's resale boutique in downtown Seattle for low prices on high-quality women's fashion.' zipCode 98101
-
-
 // item data
 addShop('Alexandras','412 Olive Way','http://www.alexandrasonline.com','Consignment boutique with racks of designer clothing & accessories for bargain hunters.', '98101');
 
