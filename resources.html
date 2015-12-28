@@ -2,36 +2,37 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Can I Recycle</title>
+    <title>Resources</title>
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-   <header>
-      <nav>
-         <a href="index.html">HOME</a>
-         <a href="about.html">ABOUT US</a>
-         <a href="#recycle_this">RECYCLE THIS</a>
-         <a href="resources.htm">RESOURCES</a>
-         <a href="contact.html">CONTACT</a>
+    <header>
+      <section class="headerLogo">
+        <img src="img/footer_logo.png" alt="can i recycle logo" />
+      </section>
+      <nav class="header">
+        <ul>
+          <a href="index.html"><li>Home</li></a>
+          <a href="about_us.html"><li>About us</li></a>
+          <a href="recycle_this.html"><li>Recycle this</li></a>
+          <a href="resources.html"><li>Resources</li></a>
+        </ul>
       </nav>
-      <section>OUR MISSION IS TO SORT THINGS OUT</section>
-   </header>
+    </header>
     <section>
       Chillwave banjo deep v, echo park keytar everyday carry 8-bit narwhal heirloom hammock irony franzen portland. Franzen listicle banh mi, raw denim viral aesthetic mixtape organic tumblr trust fund semiotics sustainable. Butcher banjo typewriter tumblr XOXO gentrify neutra, 90's salvia. Vegan readymade echo park before they sold out. Roof party venmo ugh godard next level. Disrupt wayfarers hashtag, green juice godard kombucha kogi cliche. Truffaut biodiesel semiotics polaroid, seitan photo booth listicle.
     </section>
     <figure>
-      <form action="" method="" name="zipFinder">
-        <fieldset>
-          <legend>See Resouces in your area! </legend>
-            <input type="text" value="Enter Your Zipcode" name="zip"></input>
-            <button>Enter</button>
-        </fieldset>
+      <form id="ziptake">
+        <label for="zipPut">Find Reuse Resources Near You!</label>
+          <input id="zipPut" type="text" name="zip" placeholder="Enter your Zip Code"/>
+          <input id ="button1" type="submit" name="submit" value="submit">
       </form>
     </figure>
-    <div id="revealZip">Box for Results<div>
+    <div id="revealZip">Box for Results</div>
     <script src="resources.js"></script>
   </body>
  <footer>
