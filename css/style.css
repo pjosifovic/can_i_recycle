@@ -76,9 +76,10 @@ footer {
 .footer ul li {
   list-style: none;
   font-family: "Teko", sans-serif;
-  font-size: 1em;
+  font-size: 1.5em;
   color: black;
-  letter-spacing: .4em;
+  letter-spacing: .2em;
+  padding: .8em, 0, .8em, 0;
   text-transform: uppercase;
 }
 
@@ -135,7 +136,7 @@ header .headerLogo {
 .header ul li {
   list-style: none;
   font-family: "Teko", sans-serif;
-  font-size: 1.4em;
+  font-size: 1.5em;
   color: white;
   letter-spacing: .2em;
   margin-bottom: 0;
@@ -153,7 +154,7 @@ main .slogan {
   font-size: 1.4em;
   color: white;
   text-align: center;
-  letter-spacing: .2em;
+  letter-spacing: .15em;
   margin-bottom: 0;
 }
 
@@ -197,18 +198,21 @@ main .aboutRecycling p {
 
 .categoryOne {
   background-color: #f1f2f2;
+  border: 2px solid #989899;
 }
 
 .categoryTwo {
   background-color: #86d335;
+  border: 2px solid #989899;
 }
 
+
 .categoryOne:hover {
-  border: 1px solid black;
+  border: 2px solid black;
 }
 
 .categoryTwo:hover {
-  border: 1px solid black;
+  border: 2px solid black;
 }
 
 .categoryOne p, .categoryTwo p {
@@ -296,7 +300,6 @@ article.aboutStudent {
   font-size: 3em;
   text-transform: uppercase;
   font-style: italic;
-
 }
 
 #mainInner li {
