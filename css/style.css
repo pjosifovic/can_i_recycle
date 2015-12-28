@@ -203,6 +203,14 @@ main .aboutRecycling p {
   background-color: #86d335;
 }
 
+.categoryOne:hover {
+  border: 1px solid black;
+}
+
+.categoryTwo:hover {
+  border: 1px solid black;
+}
+
 .categoryOne p, .categoryTwo p {
   margin-bottom: 0;
   color: black;
