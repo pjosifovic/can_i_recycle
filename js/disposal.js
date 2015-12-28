@@ -49,11 +49,49 @@ var addItem = function(name, parentKey, disposal, cityUrl) {
 };
 
 // item data
-addItem('Corrugated Cardboard','paper','recycle','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/Cardboard/CardboardCorrugated/index.htm');
-addItem('Pizza Boxes','paper','compost','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Paper/ContainersBoxesCartons/PizzaBoxes/index.htm');
-addItem('Corks','wood','trash','http://www.seattle.gov');
-addItem('Pallets','wood','reuse','http://www.seattle.gov');
-addItem('Cats','paper','complicated','http://www.zombo.com');
+addItem('Air Conditioners and Heat Pumps','household_items','hazard','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/Appliances/AirConditionersHeatPumps/index.htm');
+addItem('Other Large Appliances','household_items','recycle','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/Appliances/OtherLargeAppliances/index.htm');
+addItem('Refrigerators and Freezers','household_items','complicated','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/Appliances/RefrigeratorsFreezers/index.htm');
+addItem('Small Household Appliances','household_items','complicated','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/Appliances/SmallHouseholdAppliances/index.htm');
+addItem('Stoves','household_items','recycle','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/Appliances/Stoves/index.htm');
+addItem('Washers and Dryers','household_items','recycle','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/Appliances/WashersDryers/index.htm');
+addItem('Water Heaters','household_items','recycle','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/Appliances/WaterHeaters/index.htm');
+addItem('Ashes -- Fireplace and Briquettes','household_items','trash','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/Ashes/index.htm');
+addItem('Bed Frames','household_items','reuse','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/BedFrames/index.htm');
+addItem('Bicycles and Bike Parts','household_items','complicated','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/BicyclesBikeParts/index.htm');
+addItem('Candles','household_items','trash','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/Candles/index.htm');
+addItem('Carpet and Padding','household_items','complicated','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/CarpetPadding/index.htm');
+addItem('Child Car Seats','household_items','complicated','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/ChildCarSeats/index.htm');
+addItem('Clothes and Shoes','household_items','reuse','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/ClothesShoes/index.htm');
+addItem('Dryer Sheets','household_items','trash','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/DryerSheets/index.htm');
+addItem('Flushable Wipes','household_items','trash','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/FlushableWipes/index.htm');
+addItem('Garden Hoses','household_items','trash','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/GardenHoses/index.htm');
+addItem('Household Furniture','household_items','reuse','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/HouseholdFurniture/index.htm');
+addItem('Lawn Mowers and Power Equipment','household_items','reuse','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/LawnMowersPowerEquipment/index.htm');
+addItem('Holiday Lights','household_items','complicated','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/LightsChristmas/index.htm');
+addItem('Fluorescent Light Bulbs','household_items','hazard','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/FluorescentLightBulbs/index.htm');
+addItem('Incandescent Light Bulbs','household_items','trash','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/LightbulbsFluorescent/index.htm');
+addItem('LED Light Bulbs','household_items','trash','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/LightbulbsLED/index.htm');
+addItem('Halogen and Xenon Light Bulbs','household_items','trash','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/LightbulbsHalogenXenon/index.htm');
+addItem('Mattresses and Futons','household_items','trash','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/MatressesFutons/index.htm');
+addItem('Microwaves','household_items','reuse','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/Microwaves/index.htm');
+addItem('Office Furniture and Equipment','household_items','complicated','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/OfficeFurnitureEquipment/index.htm');
+addItem('Paint -- Latex','household_items','trash','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/Paint--Latex/index.htm');
+addItem('Paint -- Oil-Based','household_items','hazard','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/Paint--Oil-Based/index.htm');
+addItem('Pet Food','household_items','compost','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/PetFood/index.htm');
+addItem('Pet Waste and Litter','household_items','trash','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/PetWasteLitter/index.htm');
+addItem('Plastic Clothes Hangers','household_items','reuse','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/PlasticClothesHangers/index.htm');
+addItem('Plastic Outdoor Furniture','household_items','reuse','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/PlasticOutdoorFurniture/index.htm');
+addItem('Printer Cartridges and Toner','household_items','complicated','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/PrinterCartridgesToner/index.htm');
+addItem('Reusable Shopping Bags','household_items','reuse','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/ReusableShoppingBags/index.htm');
+addItem('Porcelain Toilets and Tubs','household_items','trash','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/PorcelainItems/index.htm');
+addItem('Metal Sink and Tub Fixtures','household_items','recycle','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/SinkTubsFixtures--Metal/index.htm');
+addItem('Smoke Detectors','household_items','trash','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/SmokeDetectors/index.htm');
+addItem('Telephones -- landline','household_items','trash','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/TelephonesLandline/index.htm');
+addItem('Toys and Sporting Goods','household_items','reuse','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/ToysSportingGoods/index.htm');
+addItem('Window Blinds','household_items','complicated','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/AppliancesHouseholdItems/WindowBlinds/index.htm');
+addItem('Acoustic Ceiling Tile','construction','complicated','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/ConstructionDemolition/AcousticCeilingTile/index.htm');
+addItem('Asbestos','construction','hazard','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/ConstructionDemolition/Asbestos/index.htm');
 
 // render items
 var renderItems = function() {
