@@ -9,90 +9,90 @@
 //     }
 // }
 
-function myFunction() {
-  var text;
-  var enterZip = document.getElementById("zipPut").value;
-
-  switch(enterZip) {
-    case "98101":
-      text = "testing 1.";
-      break;
-    case "98102":
-      text = "I am not a fan!";
-      break;
-    case "98122":
-      text = "this is in the cd";
-      break;
-    default:
-      text = "Either your outside of our coverage or you don't have any matching stores";
-  }
-  document.getElementsById("revealZip").innerHTML = text;
-}
-
 
 
 
 
 //testing:
 
-// var zipCat1 = '98101';
-//
-// // grab main div
-// var mainEl = document.getElementById('revealZip');
-//
-// // item array
-// var allZips = [];
-//
-// // item constructor
-// var Shop = function(name, address, url, info, zipCode) { //loader function
-//   this.name = name;
-//   this.address = address;
-//   this.url = url;
-//   this.info = info;
-//   this.zipCode = zipCode;
-// };
-//
-// // item loader
-// var addShop = function(name, address, url, info, zipCode) {
-//   var newShop = new Shop(name, address, url, info, zipCode);
-//   allZips.push([name,newShop]);
-// };
-//
-// //5th Avenue Boutique add: 1118 5th Ave url: https://www.ywcaworks.org/boutique, // info: 'Shop the YWCA's resale boutique in downtown Seattle for low prices on high-quality women's fashion.' zipCode 98101
-//
-//
-// // item data
-// addShop('Alexandras','412 Olive Way','http://www.alexandrasonline.com','Consignment boutique with racks of designer clothing & accessories for bargain hunters.', '98101');
-//
-// addShop('2nd Hand Gala', '1501 Pike Pl', 'https://www.facebook.com/2ndHandGALA/', 'Used, Vintage & Consignment in Seattle', '98101');
-//
-// addShop('5th Avenue Boutique', '1118 5th Ave', 'https://www.ywcaworks.org/boutique', 'YWCA\'s resale boutique in downtown Seattle for low prices on high-quality women\'s fashion.', '98101');
-//
-// addShop('Lion Heart Book Store', 'Pike Place Market', 'https://www.facebook.com/pages/Lion-Heart-Book-Store/111488748887345', 'Used book store', '98101');
-//
-// // render items
-// var renderShops = function() {
-//   // make page heading
+var allZips = ['98101', '98102', '98103'];
+
+// grab main div
+var mainEl = document.getElementById('revealZip');
+
+// item array
+var allShops = [];
+
+// item constructor
+var Shop = function(name, address, url, info, zipCode) { //loader function
+  this.name = name;
+  this.address = address;
+  this.url = url;
+  this.info = info;
+  this.zipCode = zipCode;
+};
+
+// item loader
+var addShop = function(name, address, url, info, zipCode) {
+  var newShop = new Shop(name, address, url, info, zipCode);
+  allShops.push([name,newShop]);
+};
+
+//5th Avenue Boutique add: 1118 5th Ave url: https://www.ywcaworks.org/boutique, // info: 'Shop the YWCA's resale boutique in downtown Seattle for low prices on high-quality women's fashion.' zipCode 98101
+
+
+// item data
+addShop('Alexandras','412 Olive Way','http://www.alexandrasonline.com','Consignment boutique with racks of designer clothing & accessories for bargain hunters.', '98101');
+
+addShop('2nd Hand Gala', '1501 Pike Pl', 'https://www.facebook.com/2ndHandGALA/', 'Used, Vintage & Consignment in Seattle', '98101');
+
+addShop('5th Avenue Boutique', '1118 5th Ave', 'https://www.ywcaworks.org/boutique', 'YWCA\'s resale boutique in downtown Seattle for low prices on high-quality women\'s fashion.', '98101');
+
+addShop('Lion Heart Book Store', 'Pike Place Market', 'https://www.facebook.com/pages/Lion-Heart-Book-Store/111488748887345', 'Used book store', '98101');
+
+// render items
+var renderShops = function(event) {
+  var inputEl = event.target.zipPut.value;
+  console.log("hello world.");
+  for(var i = 0; i < allShops.length; i ++) {
+    if (inputEL === allShops[i][1].zipCodes) {
+      console.log("you're crazy");
+    } else {
+    }
+  }
+};
+var submitEl = document.getElementById('ziptake');
+submitEl.addEventListener('submit', function() {
+  event.preventDefault();
+  console.log('in the event');
+  renderShops();
+});
+
+
+
+
+// renderShops();
+  // make page heading
 //   var headingEl = document.createElement('h1');
-//   headingEl.appendChild(document.createTextNode(zipCat1));
+//   headingEl.appendChild(document.createTextNode(allZips));
 //   mainEl.appendChild(headingEl);
 //   // make unordered list
 //   var ulEl = document.createElement('ul');
-//   ulEl.addEventListener('click', renderShops);
+//
 //   mainEl.appendChild(ulEl);
 //   // make list items
 //   //Trish you adjusted this to end with zipCat[i] instead of just simply zipCat
-//   for (var i = 0; i < allZips.length; i += 1) {
-//     if (allZips[i][1].zipCode === zipCat[i]) {
+//   for (var i = 0; i < allShops.length; i += 1) {
+//     if (allShops[i][1].zipCode ===  [i]) {
 //       var liEl = document.createElement('li');
-//       liEl.appendChild(document.createTextNode(allZips[i][0]));
+//       liEl.appendChild(document.createTextNode(allShops[i][0]));
 //       ulEl.appendChild(liEl);
 //     };
 //   };
 // };
-//
-// renderShops();
-//
+// // outside of function
+
+
 //
 // this.name = name;
 // this.address = address;
@@ -120,8 +120,8 @@ function myFunction() {
 //     console.log(zNames98102[1] + zAdds98101[1]);
 // }
 //
-
-
+//
+//
 //  ShopZip.prototype.generateShops = function() {
 //   for(var i = 0; i < allShops.length; i ++) {
 //     var shopName = this.name;
