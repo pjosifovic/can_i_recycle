@@ -99,7 +99,7 @@ footer {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: #6d6e70;
+  background-color: #989899;
   padding-top: 10px;
 }
 
@@ -175,7 +175,7 @@ main .aboutRecycling p {
 
 #mainSection {
   padding: 3em;
-  background-color: #6d6e70;
+  background-color: #989899;
 }
 
 #mainSection .categoriesRow {
@@ -273,7 +273,7 @@ article.aboutStudent {
 
 #mainInner {
   padding: 3em;
-  background-color: #6d6e70;
+  background-color: #989899;
 }
 
 /*#mainInner * {
