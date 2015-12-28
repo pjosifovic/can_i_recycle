@@ -184,7 +184,7 @@ addItem('Mirrors','glass_ceramics','Trash','http://www.seattle.gov/util/MyServic
 addItem('Window and Picture Glass','glass_ceramics','Trash','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/GlassCeramics/WindowPictureGlass/index.htm');
 addItem('Aerosol Cans','hazardous_items','Trash','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/CompressedGasContainers/AerosolCans/index.htm');
 addItem('Ammunition, Guns and Fireworks','hazardous_items','Hazard','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/AmmunitionGunsFireworks/index.htm');
-addItem('Anti-Freeze','hazardous_items','caution','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/LiquidsHouseholdSupplies/Anti-Freeze/index.htm');
+addItem('Anti-Freeze','hazardous_items','Hazard','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/LiquidsHouseholdSupplies/Anti-Freeze/index.htm');
 addItem('Asbestos','hazardous_items','Hazard','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/Asbestos/index.htm');
 addItem('Bleach','hazardous_items','Hazard','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/LiquidsHouseholdSupplies/Bleach/index.htm');
 addItem('Brake and Transmission Fluid','hazardous_items','Hazard','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/HazardousItems/LiquidsHouseholdSupplies/BrakeTransmissionFluid/index.htm');
@@ -394,7 +394,7 @@ addItem('Tupperware','plastic','Recycle','http://www.seattle.gov/util/MyServices
 addItem('Tyvek Envelopes','plastic','Trash','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/MailPackaging/EnvelopesTyvek/index.htm');
 addItem('Vitamin Bottles','plastic','Recycle','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Non-FoodContainers/VitaminBottles/index.htm');
 addItem('Ziploc Bags','plastic','Trash','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/Plastic/Bags/ZiplockBags/index.htm');
-addItem('Anti-Freeze','vehicle','caution','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/VehiclesVehicle-related/Anti-Freeze/index.htm');
+addItem('Anti-Freeze','vehicle','Hazard','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/VehiclesVehicle-related/Anti-Freeze/index.htm');
 addItem('Auto Parts','vehicle','Trash','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/VehiclesVehicle-related/AutoParts/index.htm');
 addItem('Bicycles and Bike Parts','vehicle','Complicated','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/VehiclesVehicle-related/BicyclesBikeParts/index.htm');
 addItem('Brake and Transmission Fluid','vehicle','Hazard','http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted/VehiclesVehicle-related/BrakeTransmissionFluid/index.htm');
@@ -475,8 +475,8 @@ addDisposal('Recycle','img/recycle_bin.png','This item is recyclable. Please pla
 addDisposal('Compost','img/compost_bin.png','This item is compostable. Please place it in your curb-side food and yard waste bin.');
 addDisposal('Hazard','img/hazard_bin.png','This item is a hazardous material. Please contact Seattle Public Utilities for complete disposal instructions.');
 addDisposal('Trash','img/trash_bin.png','This item is trash. Please place it in your curb-side trash bin.');
-addDisposal('Reuse','img/reuse.png','This item is ideal for reuse. See the "Resources" section for facilities that will accept donations of this item.');
-addDisposal('Complicated','','It\'s complicated');
+addDisposal('Reuse','img/reuse.png','This item is ideal for reuse. See the Resources section for facilities that will accept donations of this item.');
+addDisposal('Complicated','','It\'s complicated. ');
 
 // render disposal
 function renderDisposal(item) {
@@ -489,24 +489,27 @@ function renderDisposal(item) {
         itemUrl = itemArray[i][1].cityUrl;
     };
   };
-  console.log(disposalType);
-  console.log(itemUrl);
 
   // render to page
   for (var i = 0; i <disposalArray.length; i += 1) {
     if (disposalType === disposalArray[i][0]) {
-      console.log(disposalType);
       mainEl.innerHTML = '';
       var headingEl = document.createElement('h2');
       var imgEl = document.createElement('img');
       var pEl = document.createElement('p');
+      var aEl = document.createElement('a');
       headingEl.appendChild(document.createTextNode(disposalArray[i][1].heading));
       if (disposalType === 'Complicated') {
-        // generate link
+        pEl.appendChild(document.createTextNode(disposalArray[i][1].text));
+        pEl.setAttribute('class', 'disposalText');
+        aEl.setAttribute('href', itemUrl);
+        aEl.appendChild(document.createTextNode('Click here'));
+        pEl.appendChild(aEl);
+        pEl.appendChild(document.createTextNode(' for more details on how to dispose of this product.'))
       } else {
         imgEl.src = disposalArray[i][1].symbol;
         pEl.appendChild(document.createTextNode(disposalArray[i][1].text));
-        pEl.setAttribute("class", "disposalText");
+        pEl.setAttribute('class', 'disposalText');
       }
       mainEl.appendChild(headingEl);
       mainEl.appendChild(imgEl);
