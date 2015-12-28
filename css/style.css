@@ -335,3 +335,37 @@ article.aboutStudent {
   line-height: normal;
   padding: 0 5em 0 5em;
 }
+
+/*=============== resources.html ===========*/
+.aboutReusing {
+  padding: 1em;
+  background-color: #e3e4e5;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+main .aboutReusing p {
+  font-family: "Helvetica", sans-serif;
+  font-size: 1em;
+  color: black;
+  text-indent: 1.5em;
+  text-align: justify;
+  margin-bottom: 0;
+}
+
+
+
+
+
+/*
+
+
+main .aboutRecycling p {
+  font-family: "Helvetica", sans-serif;
+  font-size: 1em;
+  color: black;
+  text-indent: 1.5em;
+  text-align: justify;
+  margin-bottom: 0;
+}*/
